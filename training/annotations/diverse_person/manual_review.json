@@ -1,0 +1,1674 @@
+{
+  "1": [
+    {
+      "visible_box_native": [
+        263,
+        50,
+        329,
+        178
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        547,
+        48,
+        624,
+        169
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "2": [
+    {
+      "visible_box_native": [
+        91,
+        77,
+        167,
+        197
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "Visible lower legs at left window; proposal cut them.",
+      "pose_redundant": false
+    }
+  ],
+  "3": [
+    {
+      "visible_box_native": [
+        176,
+        173,
+        316,
+        333
+      ],
+      "pose": "walking",
+      "full_extent_observable": true,
+      "review_note": "Corrected right extent to include leg and hand.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        573,
+        86,
+        640,
+        151
+      ],
+      "pose": "edge_partial",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "4": [
+    {
+      "visible_box_native": [
+        556,
+        65,
+        640,
+        142
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        599,
+        153,
+        640,
+        237
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "5": [
+    {
+      "visible_box_native": [
+        250,
+        54,
+        332,
+        151
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "6": [
+    {
+      "visible_box_native": [
+        47,
+        148,
+        131,
+        239
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        77,
+        88,
+        149,
+        174
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        523,
+        98,
+        579,
+        174
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "7": [
+    {
+      "visible_box_native": [
+        565,
+        81,
+        608,
+        136
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        567,
+        132,
+        640,
+        207
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    }
+  ],
+  "8": [
+    {
+      "visible_box_native": [
+        52,
+        134,
+        126,
+        211
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        97,
+        82,
+        152,
+        170
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        343,
+        62,
+        415,
+        148
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        573,
+        85,
+        640,
+        142
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        598,
+        133,
+        640,
+        223
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    }
+  ],
+  "9": [
+    {
+      "visible_box_native": [
+        345,
+        62,
+        411,
+        145
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        571,
+        79,
+        640,
+        147
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        600,
+        121,
+        640,
+        205
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    }
+  ],
+  "10": [
+    {
+      "visible_box_native": [
+        80,
+        85,
+        149,
+        185
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "Visible lower leg and shoe retained.",
+      "pose_redundant": false
+    }
+  ],
+  "11": [
+    {
+      "visible_box_native": [
+        456,
+        52,
+        535,
+        139
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "12": [
+    {
+      "visible_box_native": [
+        460,
+        51,
+        529,
+        134
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "13": [
+    {
+      "visible_box_native": [
+        98,
+        126,
+        236,
+        262
+      ],
+      "pose": "walking",
+      "full_extent_observable": true,
+      "review_note": "Both feet and extended arm included.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        418,
+        73,
+        477,
+        173
+      ],
+      "pose": "standing",
+      "full_extent_observable": true,
+      "review_note": "Outer extent supported by visible standing body; interior partly behind table.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        459,
+        52,
+        514,
+        157
+      ],
+      "pose": "standing_occluded",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        488,
+        77,
+        544,
+        166
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "14": [
+    {
+      "visible_box_native": [
+        91,
+        81,
+        147,
+        197
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "Window-side leaning person; include visible leg.",
+      "pose_redundant": false
+    }
+  ],
+  "15": [
+    {
+      "visible_box_native": [
+        576,
+        209,
+        640,
+        296
+      ],
+      "pose": "edge_partial",
+      "full_extent_observable": true,
+      "review_note": "Detail review: visible trousered legs and shoes, torso beyond right image boundary; not a coat.",
+      "pose_redundant": false
+    }
+  ],
+  "16": [
+    {
+      "visible_box_native": [
+        249,
+        77,
+        335,
+        156
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "17": [
+    {
+      "visible_box_native": [
+        267,
+        53,
+        324,
+        125
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "18": [
+    {
+      "visible_box_native": [
+        260,
+        52,
+        324,
+        137
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "19": [
+    {
+      "visible_box_native": [
+        270,
+        56,
+        327,
+        130
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        275,
+        309,
+        345,
+        360
+      ],
+      "pose": "edge_partial",
+      "full_extent_observable": true,
+      "review_note": "Image-clipped foreground person; no extrapolation beyond frame.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        388,
+        58,
+        476,
+        136
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        389,
+        135,
+        496,
+        231
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        471,
+        60,
+        541,
+        146
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "20": [
+    {
+      "visible_box_native": [
+        360,
+        60,
+        453,
+        141
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        374,
+        169,
+        463,
+        257
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        467,
+        66,
+        542,
+        147
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "21": [
+    {
+      "visible_box_native": [
+        452,
+        65,
+        536,
+        137
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        458,
+        130,
+        542,
+        217
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Detail confirms hooded person. Exclude coat hanging below seat from person box.",
+      "pose_redundant": false
+    }
+  ],
+  "22": [
+    {
+      "visible_box_native": [
+        95,
+        143,
+        174,
+        218
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        128,
+        82,
+        192,
+        139
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        153,
+        120,
+        235,
+        221
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    }
+  ],
+  "23": [
+    {
+      "visible_box_native": [
+        86,
+        96,
+        151,
+        158
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        88,
+        146,
+        155,
+        220
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        140,
+        150,
+        232,
+        226
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        143,
+        82,
+        198,
+        139
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        184,
+        82,
+        260,
+        174
+      ],
+      "pose": "standing_occluded",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        544,
+        72,
+        613,
+        145
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        561,
+        122,
+        640,
+        222
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    }
+  ],
+  "24": [
+    {
+      "visible_box_native": [
+        547,
+        71,
+        621,
+        145
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        565,
+        136,
+        640,
+        224
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Foreground seated person: outer head/arms/hips extent visible; exclude furniture/garments.",
+      "pose_redundant": false
+    }
+  ],
+  "25": [
+    {
+      "visible_box_native": [
+        261,
+        55,
+        329,
+        126
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "26": [
+    {
+      "visible_box_native": [
+        267,
+        61,
+        329,
+        127
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "27": [
+    {
+      "visible_box_native": [
+        58,
+        111,
+        131,
+        186
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        250,
+        61,
+        329,
+        132
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "28": [
+    {
+      "visible_box_native": [
+        60,
+        108,
+        132,
+        187
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        261,
+        60,
+        327,
+        133
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        426,
+        65,
+        507,
+        132
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        547,
+        65,
+        623,
+        133
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "29": [
+    {
+      "visible_box_native": [
+        77,
+        92,
+        146,
+        184
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "Both visible legs at window retained; hanging coats excluded.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        141,
+        82,
+        214,
+        155
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        250,
+        68,
+        328,
+        134
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        428,
+        68,
+        510,
+        132
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        551,
+        74,
+        617,
+        147
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        585,
+        111,
+        640,
+        202
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "30": [
+    {
+      "visible_box_native": [
+        86,
+        88,
+        151,
+        199
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": " Second crop review: expanded to retain visible shoes.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        257,
+        63,
+        328,
+        134
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        435,
+        61,
+        510,
+        135
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        560,
+        82,
+        613,
+        151
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        563,
+        112,
+        640,
+        226
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        601,
+        67,
+        640,
+        137
+      ],
+      "pose": "standing_occluded",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "31": [
+    {
+      "visible_box_native": [
+        79,
+        89,
+        146,
+        189
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        153,
+        83,
+        220,
+        147
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        257,
+        67,
+        326,
+        133
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        435,
+        66,
+        516,
+        135
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "32": [
+    {
+      "visible_box_native": [
+        81,
+        87,
+        151,
+        182
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        155,
+        81,
+        219,
+        137
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        260,
+        53,
+        332,
+        129
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        431,
+        60,
+        512,
+        133
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "33": [
+    {
+      "visible_box_native": [
+        84,
+        89,
+        150,
+        184
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        153,
+        82,
+        215,
+        138
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        432,
+        65,
+        510,
+        135
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "34": [
+    {
+      "visible_box_native": [
+        458,
+        72,
+        524,
+        133
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "35": [
+    {
+      "visible_box_native": [
+        458,
+        63,
+        521,
+        132
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "36": [
+    {
+      "visible_box_native": [
+        437,
+        73,
+        511,
+        139
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        577,
+        64,
+        639,
+        135
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "37": [
+    {
+      "visible_box_native": [
+        437,
+        74,
+        516,
+        139
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        579,
+        75,
+        636,
+        146
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "38": [
+    {
+      "visible_box_native": [
+        587,
+        53,
+        640,
+        122
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "Enlarged review: one person; foreground black garment is not another person.",
+      "pose_redundant": false
+    }
+  ],
+  "39": [
+    {
+      "visible_box_native": [
+        80,
+        96,
+        150,
+        199
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": " Second crop review: expanded to retain visible shoes.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        578,
+        57,
+        637,
+        140
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "40": [
+    {
+      "visible_box_native": [
+        73,
+        80,
+        143,
+        194
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": " Second crop review: expanded to retain visible shoes.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        260,
+        48,
+        334,
+        138
+      ],
+      "pose": "standing_occluded",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "41": [
+    {
+      "visible_box_native": [
+        73,
+        84,
+        141,
+        188
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        134,
+        203,
+        270,
+        324
+      ],
+      "pose": "walking",
+      "full_extent_observable": true,
+      "review_note": "Full-frame and crop checked; hands and both feet included.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        216,
+        127,
+        332,
+        237
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "Crossed legs/feet visible in detail crop; not a hanging garment.",
+      "pose_redundant": false
+    }
+  ],
+  "42": [
+    {
+      "visible_box_native": [
+        74,
+        83,
+        140,
+        187
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "43": [
+    {
+      "visible_box_native": [
+        74,
+        87,
+        140,
+        185
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        551,
+        81,
+        640,
+        197
+      ],
+      "pose": "leaning_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "44": [
+    {
+      "visible_box_native": [
+        77,
+        89,
+        143,
+        193
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": " Second crop review: expanded to retain visible shoes.",
+      "pose_redundant": false
+    }
+  ],
+  "45": [
+    {
+      "visible_box_native": [
+        71,
+        96,
+        142,
+        184
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "46": [
+    {
+      "visible_box_native": [
+        42,
+        150,
+        138,
+        251
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "Enlarged review confirms a seated/bending person with both jean-clad legs and shoes visible.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        271,
+        72,
+        335,
+        147
+      ],
+      "pose": "standing_occluded",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "47": [
+    {
+      "visible_box_native": [
+        80,
+        97,
+        141,
+        182
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        282,
+        69,
+        339,
+        152
+      ],
+      "pose": "standing_occluded",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "48": [
+    {
+      "visible_box_native": [
+        80,
+        94,
+        142,
+        183
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "49": [
+    {
+      "visible_box_native": [
+        63,
+        167,
+        182,
+        271
+      ],
+      "pose": "walking",
+      "full_extent_observable": true,
+      "review_note": "Walking foreground figure; include trailing shoe.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        83,
+        82,
+        153,
+        183
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "50": [
+    {
+      "visible_box_native": [
+        82,
+        90,
+        152,
+        182
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "51": [
+    {
+      "visible_box_native": [
+        84,
+        77,
+        144,
+        183
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "52": [
+    {
+      "visible_box_native": [
+        53,
+        117,
+        134,
+        207
+      ],
+      "pose": "bending",
+      "full_extent_observable": true,
+      "review_note": "Bent window-side person; whole outer body within visible region. Second crop review: expanded to retain visible shoes.",
+      "pose_redundant": false
+    }
+  ],
+  "53": [
+    {
+      "visible_box_native": [
+        78,
+        85,
+        145,
+        185
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "54": [
+    {
+      "visible_box_native": [
+        82,
+        93,
+        150,
+        186
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "55": [
+    {
+      "visible_box_native": [
+        83,
+        75,
+        154,
+        193
+      ],
+      "pose": "standing",
+      "full_extent_observable": true,
+      "review_note": "More upright window-side pose; keep arm/hand holding cup. Second crop review: expanded to retain visible shoes.",
+      "pose_redundant": false
+    }
+  ],
+  "56": [
+    {
+      "visible_box_native": [
+        81,
+        95,
+        147,
+        187
+      ],
+      "pose": "leaning",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "57": [
+    {
+      "visible_box_native": [
+        169,
+        163,
+        317,
+        303
+      ],
+      "pose": "walking",
+      "full_extent_observable": true,
+      "review_note": "Final native-coordinate grid review: include left elbow and both shoes; exclude the held chair from the right extent.",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        330,
+        130,
+        421,
+        279
+      ],
+      "pose": "walking",
+      "full_extent_observable": true,
+      "review_note": "Pink-jacket person; include visible shoes.",
+      "pose_redundant": false
+    }
+  ],
+  "58": [
+    {
+      "visible_box_native": [
+        225,
+        145,
+        333,
+        229
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        268,
+        77,
+        331,
+        136
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "59": [
+    {
+      "visible_box_native": [
+        229,
+        138,
+        334,
+        229
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": false
+    },
+    {
+      "visible_box_native": [
+        258,
+        71,
+        329,
+        137
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": false
+    }
+  ],
+  "60": [
+    {
+      "visible_box_native": [
+        236,
+        142,
+        333,
+        228
+      ],
+      "pose": "seated_front",
+      "full_extent_observable": true,
+      "review_note": "",
+      "pose_redundant": true
+    },
+    {
+      "visible_box_native": [
+        262,
+        71,
+        330,
+        138
+      ],
+      "pose": "seated_table",
+      "full_extent_observable": false,
+      "review_note": "",
+      "pose_redundant": true
+    }
+  ],
+  "61": [
+    {
+      "visible_box_native": [
+        303,
+        80,
+        394,
+        171
+      ],
+      "pose": "standing",
+      "full_extent_observable": true,
+      "review_note": "Detail crop shows both shoes; no extension to distant shadow.",
+      "pose_redundant": false
+    }
+  ],
+  "62": [
+    {
+      "visible_box_native": [
+        28,
+        151,
+        113,
+        256
+      ],
+      "pose": "bending",
+      "full_extent_observable": true,
+      "review_note": "Detail shows both trouser legs and shoes; head/arms by window.",
+      "pose_redundant": false
+    }
+  ]
+}

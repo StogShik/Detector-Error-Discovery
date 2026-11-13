@@ -1,0 +1,29 @@
+{
+  "source": "Assistant visual review with model-generated initial hints; not organizer ground truth or a second human annotator.",
+  "train_days": [
+    "20261025",
+    "20261026"
+  ],
+  "frames": 62,
+  "observations": 129,
+  "full_box_extrema_supported": 57,
+  "nonredundant_geometry_boxes": 42,
+  "hidden_full_extents_withheld": 72,
+  "canonical_size": [
+    1280,
+    720
+  ],
+  "native_size": [
+    640,
+    360
+  ],
+  "native_coordinate_tolerance_px": 4,
+  "definition": "Smallest visually supported rectangle covering the person, including visible limbs. Exclude furniture, bags and draped garments. Image-clipped people stop at the image boundary. Full-box targets require evidence for the outer body extrema, not visibility of every interior pixel.",
+  "uncertainty": "If table/neighbor hides an unknown outer body extent, record visible extent and pose only; leave all full-box coordinates NaN. Do not synthesize a hidden foot position or use neighboring GT as the target.",
+  "selection": "Frozen DINOv2 ViT-S/14 crop appearance diversity; at least 180s from previously annotated frames and 300s between selected frames on each day. Manual pose-redundancy exclusions applied afterward.",
+  "test_data_used": false,
+  "geometry_training": "Use only supported full boxes, preserve native camera scale, mask uncertain visible people, and reject an image when masking would remove >3% of any supported target. Never feed the sparse geometry CSV to a full-frame detector as exhaustive annotations.",
+  "reviewed_model_hints": "Existing same-day-only teacher; no opposite-day fitting in annotation proposal model.",
+  "public_validation": "No independent Public improvement established.",
+  "native_coordinate_tolerance_note": "Working review tolerance, not an empirically verified bound on annotation error."
+}

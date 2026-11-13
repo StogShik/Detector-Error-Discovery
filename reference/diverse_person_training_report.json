@@ -1,0 +1,126 @@
+{
+  "annotation_policy": {
+    "source": "Assistant visual review with model-generated initial hints; not organizer ground truth or a second human annotator.",
+    "train_days": [
+      "20261025",
+      "20261026"
+    ],
+    "frames": 62,
+    "observations": 129,
+    "full_box_extrema_supported": 57,
+    "nonredundant_geometry_boxes": 42,
+    "hidden_full_extents_withheld": 72,
+    "canonical_size": [
+      1280,
+      720
+    ],
+    "native_size": [
+      640,
+      360
+    ],
+    "native_coordinate_tolerance_px": 4,
+    "definition": "Smallest visually supported rectangle covering the person, including visible limbs. Exclude furniture, bags and draped garments. Image-clipped people stop at the image boundary. Full-box targets require evidence for the outer body extrema, not visibility of every interior pixel.",
+    "uncertainty": "If table/neighbor hides an unknown outer body extent, record visible extent and pose only; leave all full-box coordinates NaN. Do not synthesize a hidden foot position or use neighboring GT as the target.",
+    "selection": "Frozen DINOv2 ViT-S/14 crop appearance diversity; at least 180s from previously annotated frames and 300s between selected frames on each day. Manual pose-redundancy exclusions applied afterward.",
+    "test_data_used": false,
+    "geometry_training": "Use only supported full boxes, preserve native camera scale, mask uncertain visible people, and reject an image when masking would remove >3% of any supported target. Never feed the sparse geometry CSV to a full-frame detector as exhaustive annotations.",
+    "reviewed_model_hints": "Existing same-day-only teacher; no opposite-day fitting in annotation proposal model.",
+    "public_validation": "No independent Public improvement established."
+  },
+  "models": {
+    "control_20261025": {
+      "exposures": 80,
+      "warm_start_sha256": "927327efbc4f023641408ab4b1a0341be5121c660df961c1b87c3ea1f33a7c84",
+      "trained_checkpoint_sha256": "a8cd0d5ac775c3166c01f682388a507cbb13e4d9350ec024d098de3211586dc7",
+      "unique_source_frames": 42,
+      "heldout_day": "20261025",
+      "training_days": [
+        "20261026"
+      ]
+    },
+    "control_20261026": {
+      "exposures": 60,
+      "warm_start_sha256": "664bf5b21a500c1b648aba51c8d1d6c5a20771906147f7a79772752502d289b1",
+      "trained_checkpoint_sha256": "f2875de6ca41caf8ab6fcd113097a326a0b73e8965dfcac44d02a9ac716bf51b",
+      "unique_source_frames": 42,
+      "heldout_day": "20261026",
+      "training_days": [
+        "20261025"
+      ]
+    },
+    "augmented_20261025": {
+      "exposures": 80,
+      "warm_start_sha256": "927327efbc4f023641408ab4b1a0341be5121c660df961c1b87c3ea1f33a7c84",
+      "trained_checkpoint_sha256": "00c4831d89e9a73ada5b5a7d677db3800d357b965a0ae48e29c57d4d0042c65a",
+      "unique_source_frames": 56,
+      "heldout_day": "20261025",
+      "training_days": [
+        "20261026"
+      ]
+    },
+    "augmented_20261026": {
+      "exposures": 60,
+      "warm_start_sha256": "664bf5b21a500c1b648aba51c8d1d6c5a20771906147f7a79772752502d289b1",
+      "trained_checkpoint_sha256": "efba592c47cbd45f21bb7430aa918ff58ca6acad1a2144e0b382f51428067815",
+      "unique_source_frames": 48,
+      "heldout_day": "20261026",
+      "training_days": [
+        "20261025"
+      ]
+    }
+  },
+  "training_config": {
+    "epochs": 6,
+    "training_imgsz": 640,
+    "evaluation_imgsz": 960,
+    "freeze": 10,
+    "lr0": 0.0001,
+    "mosaic": 0.0,
+    "degrees": 3,
+    "scale": 0.15,
+    "seed": 373,
+    "batch": 4
+  },
+  "control": "No-new-label control has exactly the same number of exposures/optimizer steps as the augmented variant in each fold.",
+  "default_changed": false,
+  "new_submission_created": false,
+  "public_AP": null,
+  "reference_public_AP": 0.87853,
+  "caveat": "Exploratory comparison on two reused days; manually checked assistant annotations are not organizer ground truth. Additional hypotheses included small crop training and continuation from original-GT-only warm starts; neither passed the improvement gate.",
+  "trials": [
+    {
+      "trial": "diverse_person_verifier",
+      "method": "augmented_w0.25",
+      "mean_overall_AP": 0.9461453898538845,
+      "day1_person_AP": 0.9003918495297806,
+      "day2_person_AP": 0.7480415280576365,
+      "selected": null
+    },
+    {
+      "trial": "diverse_person_context_verifier",
+      "method": "augmented_w0.25",
+      "mean_overall_AP": 0.9536855040600073,
+      "day1_person_AP": 0.9296536796536797,
+      "day2_person_AP": 0.8216990876628687,
+      "selected": null
+    },
+    {
+      "trial": "diverse_person_continued_verifier",
+      "method": "augmented_replacement",
+      "mean_overall_AP": 0.9558340660481031,
+      "day1_person_AP": 0.9224992398905443,
+      "day2_person_AP": 0.846800272001476,
+      "selected": null
+    },
+    {
+      "trial": "diverse_person_continued_verifier/ref960",
+      "method": "augmented_replacement",
+      "mean_overall_AP": 0.9560748807604196,
+      "day1_person_AP": 0.944304707150557,
+      "day2_person_AP": 0.8398183834412465,
+      "selected": null
+    }
+  ],
+  "annotation_observations_sha256": "5143b55fde838f5cdcb7d7bcc5e113c4ad3e04b859bb7af9a979704980028777",
+  "training_dataset_labels_sha256": "b37b36b49300bca518ee2177710e906e127e516d6b6768946701ee7fa3d4e5ed"
+}

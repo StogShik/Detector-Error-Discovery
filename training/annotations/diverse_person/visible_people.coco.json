@@ -1,0 +1,3506 @@
+{
+  "info": {
+    "description": "TRAIN-only assistant-reviewed visible person extent; hidden full-body targets withheld.",
+    "coordinate_system": "Native JPEG 640x360; CSV visible/full box coordinates are canonical 1280x720."
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "GENERAL_mishka_1_5_20261025_063030.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_063030",
+      "day": "20261025"
+    },
+    {
+      "id": 2,
+      "file_name": "GENERAL_mishka_1_5_20261025_070130.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_070130",
+      "day": "20261025"
+    },
+    {
+      "id": 3,
+      "file_name": "GENERAL_mishka_1_5_20261025_074830.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_074830",
+      "day": "20261025"
+    },
+    {
+      "id": 4,
+      "file_name": "GENERAL_mishka_1_5_20261025_082200.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_082200",
+      "day": "20261025"
+    },
+    {
+      "id": 5,
+      "file_name": "GENERAL_mishka_1_5_20261025_083300.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_083300",
+      "day": "20261025"
+    },
+    {
+      "id": 6,
+      "file_name": "GENERAL_mishka_1_5_20261025_084800.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_084800",
+      "day": "20261025"
+    },
+    {
+      "id": 7,
+      "file_name": "GENERAL_mishka_1_5_20261025_085600.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_085600",
+      "day": "20261025"
+    },
+    {
+      "id": 8,
+      "file_name": "GENERAL_mishka_1_5_20261025_091630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_091630",
+      "day": "20261025"
+    },
+    {
+      "id": 9,
+      "file_name": "GENERAL_mishka_1_5_20261025_092500.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_092500",
+      "day": "20261025"
+    },
+    {
+      "id": 10,
+      "file_name": "GENERAL_mishka_1_5_20261025_095700.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_095700",
+      "day": "20261025"
+    },
+    {
+      "id": 11,
+      "file_name": "GENERAL_mishka_1_5_20261025_101600.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_101600",
+      "day": "20261025"
+    },
+    {
+      "id": 12,
+      "file_name": "GENERAL_mishka_1_5_20261025_111830.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_111830",
+      "day": "20261025"
+    },
+    {
+      "id": 13,
+      "file_name": "GENERAL_mishka_1_5_20261025_113430.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_113430",
+      "day": "20261025"
+    },
+    {
+      "id": 14,
+      "file_name": "GENERAL_mishka_1_5_20261025_115630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_115630",
+      "day": "20261025"
+    },
+    {
+      "id": 15,
+      "file_name": "GENERAL_mishka_1_5_20261025_125500.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_125500",
+      "day": "20261025"
+    },
+    {
+      "id": 16,
+      "file_name": "GENERAL_mishka_1_5_20261025_133830.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_133830",
+      "day": "20261025"
+    },
+    {
+      "id": 17,
+      "file_name": "GENERAL_mishka_1_5_20261025_135330.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_135330",
+      "day": "20261025"
+    },
+    {
+      "id": 18,
+      "file_name": "GENERAL_mishka_1_5_20261025_140230.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_140230",
+      "day": "20261025"
+    },
+    {
+      "id": 19,
+      "file_name": "GENERAL_mishka_1_5_20261025_141500.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_141500",
+      "day": "20261025"
+    },
+    {
+      "id": 20,
+      "file_name": "GENERAL_mishka_1_5_20261025_144700.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_144700",
+      "day": "20261025"
+    },
+    {
+      "id": 21,
+      "file_name": "GENERAL_mishka_1_5_20261025_172200.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261025_172200",
+      "day": "20261025"
+    },
+    {
+      "id": 22,
+      "file_name": "GENERAL_mishka_1_5_20261026_052930.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_052930",
+      "day": "20261026"
+    },
+    {
+      "id": 23,
+      "file_name": "GENERAL_mishka_1_5_20261026_060100.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_060100",
+      "day": "20261026"
+    },
+    {
+      "id": 24,
+      "file_name": "GENERAL_mishka_1_5_20261026_061530.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_061530",
+      "day": "20261026"
+    },
+    {
+      "id": 25,
+      "file_name": "GENERAL_mishka_1_5_20261026_065800.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_065800",
+      "day": "20261026"
+    },
+    {
+      "id": 26,
+      "file_name": "GENERAL_mishka_1_5_20261026_072100.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_072100",
+      "day": "20261026"
+    },
+    {
+      "id": 27,
+      "file_name": "GENERAL_mishka_1_5_20261026_072900.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_072900",
+      "day": "20261026"
+    },
+    {
+      "id": 28,
+      "file_name": "GENERAL_mishka_1_5_20261026_074430.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_074430",
+      "day": "20261026"
+    },
+    {
+      "id": 29,
+      "file_name": "GENERAL_mishka_1_5_20261026_080430.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_080430",
+      "day": "20261026"
+    },
+    {
+      "id": 30,
+      "file_name": "GENERAL_mishka_1_5_20261026_081930.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_081930",
+      "day": "20261026"
+    },
+    {
+      "id": 31,
+      "file_name": "GENERAL_mishka_1_5_20261026_084000.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_084000",
+      "day": "20261026"
+    },
+    {
+      "id": 32,
+      "file_name": "GENERAL_mishka_1_5_20261026_084500.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_084500",
+      "day": "20261026"
+    },
+    {
+      "id": 33,
+      "file_name": "GENERAL_mishka_1_5_20261026_085800.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_085800",
+      "day": "20261026"
+    },
+    {
+      "id": 34,
+      "file_name": "GENERAL_mishka_1_5_20261026_092130.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_092130",
+      "day": "20261026"
+    },
+    {
+      "id": 35,
+      "file_name": "GENERAL_mishka_1_5_20261026_092900.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_092900",
+      "day": "20261026"
+    },
+    {
+      "id": 36,
+      "file_name": "GENERAL_mishka_1_5_20261026_093630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_093630",
+      "day": "20261026"
+    },
+    {
+      "id": 37,
+      "file_name": "GENERAL_mishka_1_5_20261026_095230.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_095230",
+      "day": "20261026"
+    },
+    {
+      "id": 38,
+      "file_name": "GENERAL_mishka_1_5_20261026_102600.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_102600",
+      "day": "20261026"
+    },
+    {
+      "id": 39,
+      "file_name": "GENERAL_mishka_1_5_20261026_111500.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_111500",
+      "day": "20261026"
+    },
+    {
+      "id": 40,
+      "file_name": "GENERAL_mishka_1_5_20261026_112830.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_112830",
+      "day": "20261026"
+    },
+    {
+      "id": 41,
+      "file_name": "GENERAL_mishka_1_5_20261026_120630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_120630",
+      "day": "20261026"
+    },
+    {
+      "id": 42,
+      "file_name": "GENERAL_mishka_1_5_20261026_123700.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_123700",
+      "day": "20261026"
+    },
+    {
+      "id": 43,
+      "file_name": "GENERAL_mishka_1_5_20261026_124800.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_124800",
+      "day": "20261026"
+    },
+    {
+      "id": 44,
+      "file_name": "GENERAL_mishka_1_5_20261026_134300.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_134300",
+      "day": "20261026"
+    },
+    {
+      "id": 45,
+      "file_name": "GENERAL_mishka_1_5_20261026_141700.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_141700",
+      "day": "20261026"
+    },
+    {
+      "id": 46,
+      "file_name": "GENERAL_mishka_1_5_20261026_154830.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_154830",
+      "day": "20261026"
+    },
+    {
+      "id": 47,
+      "file_name": "GENERAL_mishka_1_5_20261026_161530.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_161530",
+      "day": "20261026"
+    },
+    {
+      "id": 48,
+      "file_name": "GENERAL_mishka_1_5_20261026_162630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_162630",
+      "day": "20261026"
+    },
+    {
+      "id": 49,
+      "file_name": "GENERAL_mishka_1_5_20261026_163730.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_163730",
+      "day": "20261026"
+    },
+    {
+      "id": 50,
+      "file_name": "GENERAL_mishka_1_5_20261026_165000.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_165000",
+      "day": "20261026"
+    },
+    {
+      "id": 51,
+      "file_name": "GENERAL_mishka_1_5_20261026_170900.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_170900",
+      "day": "20261026"
+    },
+    {
+      "id": 52,
+      "file_name": "GENERAL_mishka_1_5_20261026_171500.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_171500",
+      "day": "20261026"
+    },
+    {
+      "id": 53,
+      "file_name": "GENERAL_mishka_1_5_20261026_175200.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_175200",
+      "day": "20261026"
+    },
+    {
+      "id": 54,
+      "file_name": "GENERAL_mishka_1_5_20261026_180030.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_180030",
+      "day": "20261026"
+    },
+    {
+      "id": 55,
+      "file_name": "GENERAL_mishka_1_5_20261026_180930.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_180930",
+      "day": "20261026"
+    },
+    {
+      "id": 56,
+      "file_name": "GENERAL_mishka_1_5_20261026_181430.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_181430",
+      "day": "20261026"
+    },
+    {
+      "id": 57,
+      "file_name": "GENERAL_mishka_1_5_20261026_182330.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_182330",
+      "day": "20261026"
+    },
+    {
+      "id": 58,
+      "file_name": "GENERAL_mishka_1_5_20261026_185930.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_185930",
+      "day": "20261026"
+    },
+    {
+      "id": 59,
+      "file_name": "GENERAL_mishka_1_5_20261026_190730.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_190730",
+      "day": "20261026"
+    },
+    {
+      "id": 60,
+      "file_name": "GENERAL_mishka_1_5_20261026_192630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_192630",
+      "day": "20261026"
+    },
+    {
+      "id": 61,
+      "file_name": "GENERAL_mishka_1_5_20261026_212630.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_212630",
+      "day": "20261026"
+    },
+    {
+      "id": 62,
+      "file_name": "GENERAL_mishka_1_5_20261026_214230.jpg",
+      "width": 640,
+      "height": 360,
+      "frame_id": "GENERAL_mishka_1_5_20261026_214230",
+      "day": "20261026"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        263.0,
+        50.0,
+        66.0,
+        128.0
+      ],
+      "area": 8448.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H001_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        547.0,
+        48.0,
+        77.0,
+        121.0
+      ],
+      "area": 9317.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H001_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 3,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        91.0,
+        77.0,
+        76.0,
+        120.0
+      ],
+      "area": 9120.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H002_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          91.0,
+          77.0,
+          167.0,
+          197.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 4,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        176.0,
+        173.0,
+        140.0,
+        160.0
+      ],
+      "area": 22400.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H003_01",
+        "pose": "walking",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          176.0,
+          173.0,
+          316.0,
+          333.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 5,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        573.0,
+        86.0,
+        67.0,
+        65.0
+      ],
+      "area": 4355.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H003_02",
+        "pose": "edge_partial",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 6,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        556.0,
+        65.0,
+        84.0,
+        77.0
+      ],
+      "area": 6468.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H004_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 7,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        599.0,
+        153.0,
+        41.0,
+        84.0
+      ],
+      "area": 3444.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H004_02",
+        "pose": "seated_front",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 8,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        250.0,
+        54.0,
+        82.0,
+        97.0
+      ],
+      "area": 7954.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H005_01",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 9,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        47.0,
+        148.0,
+        84.0,
+        91.0
+      ],
+      "area": 7644.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H006_01",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          47.0,
+          148.0,
+          131.0,
+          239.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 10,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        77.0,
+        88.0,
+        72.0,
+        86.0
+      ],
+      "area": 6192.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H006_02",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 11,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        523.0,
+        98.0,
+        56.0,
+        76.0
+      ],
+      "area": 4256.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H006_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 12,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        565.0,
+        81.0,
+        43.0,
+        55.0
+      ],
+      "area": 2365.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H007_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 13,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        567.0,
+        132.0,
+        73.0,
+        75.0
+      ],
+      "area": 5475.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H007_02",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          567.0,
+          132.0,
+          640.0,
+          207.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 14,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        52.0,
+        134.0,
+        74.0,
+        77.0
+      ],
+      "area": 5698.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H008_01",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          52.0,
+          134.0,
+          126.0,
+          211.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 15,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        97.0,
+        82.0,
+        55.0,
+        88.0
+      ],
+      "area": 4840.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H008_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 16,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        343.0,
+        62.0,
+        72.0,
+        86.0
+      ],
+      "area": 6192.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H008_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 17,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        573.0,
+        85.0,
+        67.0,
+        57.0
+      ],
+      "area": 3819.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H008_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 18,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        598.0,
+        133.0,
+        42.0,
+        90.0
+      ],
+      "area": 3780.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H008_05",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          598.0,
+          133.0,
+          640.0,
+          223.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 19,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        345.0,
+        62.0,
+        66.0,
+        83.0
+      ],
+      "area": 5478.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H009_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 20,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        571.0,
+        79.0,
+        69.0,
+        68.0
+      ],
+      "area": 4692.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H009_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 21,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        600.0,
+        121.0,
+        40.0,
+        84.0
+      ],
+      "area": 3360.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H009_03",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          600.0,
+          121.0,
+          640.0,
+          205.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 22,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        80.0,
+        85.0,
+        69.0,
+        100.0
+      ],
+      "area": 6900.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H010_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          80.0,
+          85.0,
+          149.0,
+          185.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 23,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        456.0,
+        52.0,
+        79.0,
+        87.0
+      ],
+      "area": 6873.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H011_01",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 24,
+      "image_id": 12,
+      "category_id": 1,
+      "bbox": [
+        460.0,
+        51.0,
+        69.0,
+        83.0
+      ],
+      "area": 5727.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H012_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 25,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        98.0,
+        126.0,
+        138.0,
+        136.0
+      ],
+      "area": 18768.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H013_01",
+        "pose": "walking",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          98.0,
+          126.0,
+          236.0,
+          262.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 26,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        418.0,
+        73.0,
+        59.0,
+        100.0
+      ],
+      "area": 5900.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H013_02",
+        "pose": "standing",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          418.0,
+          73.0,
+          477.0,
+          173.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 27,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        459.0,
+        52.0,
+        55.0,
+        105.0
+      ],
+      "area": 5775.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H013_03",
+        "pose": "standing_occluded",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 28,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        488.0,
+        77.0,
+        56.0,
+        89.0
+      ],
+      "area": 4984.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H013_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 29,
+      "image_id": 14,
+      "category_id": 1,
+      "bbox": [
+        91.0,
+        81.0,
+        56.0,
+        116.0
+      ],
+      "area": 6496.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H014_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          91.0,
+          81.0,
+          147.0,
+          197.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 30,
+      "image_id": 15,
+      "category_id": 1,
+      "bbox": [
+        576.0,
+        209.0,
+        64.0,
+        87.0
+      ],
+      "area": 5568.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H015_01",
+        "pose": "edge_partial",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          576.0,
+          209.0,
+          640.0,
+          296.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 31,
+      "image_id": 16,
+      "category_id": 1,
+      "bbox": [
+        249.0,
+        77.0,
+        86.0,
+        79.0
+      ],
+      "area": 6794.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H016_01",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 32,
+      "image_id": 17,
+      "category_id": 1,
+      "bbox": [
+        267.0,
+        53.0,
+        57.0,
+        72.0
+      ],
+      "area": 4104.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H017_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 33,
+      "image_id": 18,
+      "category_id": 1,
+      "bbox": [
+        260.0,
+        52.0,
+        64.0,
+        85.0
+      ],
+      "area": 5440.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H018_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 34,
+      "image_id": 19,
+      "category_id": 1,
+      "bbox": [
+        270.0,
+        56.0,
+        57.0,
+        74.0
+      ],
+      "area": 4218.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H019_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 35,
+      "image_id": 19,
+      "category_id": 1,
+      "bbox": [
+        275.0,
+        309.0,
+        70.0,
+        51.0
+      ],
+      "area": 3570.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H019_02",
+        "pose": "edge_partial",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          275.0,
+          309.0,
+          345.0,
+          360.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 36,
+      "image_id": 19,
+      "category_id": 1,
+      "bbox": [
+        388.0,
+        58.0,
+        88.0,
+        78.0
+      ],
+      "area": 6864.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H019_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 37,
+      "image_id": 19,
+      "category_id": 1,
+      "bbox": [
+        389.0,
+        135.0,
+        107.0,
+        96.0
+      ],
+      "area": 10272.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H019_04",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          389.0,
+          135.0,
+          496.0,
+          231.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 38,
+      "image_id": 19,
+      "category_id": 1,
+      "bbox": [
+        471.0,
+        60.0,
+        70.0,
+        86.0
+      ],
+      "area": 6020.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H019_05",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 39,
+      "image_id": 20,
+      "category_id": 1,
+      "bbox": [
+        360.0,
+        60.0,
+        93.0,
+        81.0
+      ],
+      "area": 7533.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H020_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 40,
+      "image_id": 20,
+      "category_id": 1,
+      "bbox": [
+        374.0,
+        169.0,
+        89.0,
+        88.0
+      ],
+      "area": 7832.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H020_02",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          374.0,
+          169.0,
+          463.0,
+          257.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 41,
+      "image_id": 20,
+      "category_id": 1,
+      "bbox": [
+        467.0,
+        66.0,
+        75.0,
+        81.0
+      ],
+      "area": 6075.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H020_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 42,
+      "image_id": 21,
+      "category_id": 1,
+      "bbox": [
+        452.0,
+        65.0,
+        84.0,
+        72.0
+      ],
+      "area": 6048.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H021_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 43,
+      "image_id": 21,
+      "category_id": 1,
+      "bbox": [
+        458.0,
+        130.0,
+        84.0,
+        87.0
+      ],
+      "area": 7308.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H021_02",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          458.0,
+          130.0,
+          542.0,
+          217.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 44,
+      "image_id": 22,
+      "category_id": 1,
+      "bbox": [
+        95.0,
+        143.0,
+        79.0,
+        75.0
+      ],
+      "area": 5925.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H022_01",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          95.0,
+          143.0,
+          174.0,
+          218.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 45,
+      "image_id": 22,
+      "category_id": 1,
+      "bbox": [
+        128.0,
+        82.0,
+        64.0,
+        57.0
+      ],
+      "area": 3648.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H022_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 46,
+      "image_id": 22,
+      "category_id": 1,
+      "bbox": [
+        153.0,
+        120.0,
+        82.0,
+        101.0
+      ],
+      "area": 8282.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H022_03",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          153.0,
+          120.0,
+          235.0,
+          221.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 47,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        86.0,
+        96.0,
+        65.0,
+        62.0
+      ],
+      "area": 4030.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 48,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        88.0,
+        146.0,
+        67.0,
+        74.0
+      ],
+      "area": 4958.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_02",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          88.0,
+          146.0,
+          155.0,
+          220.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 49,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        140.0,
+        150.0,
+        92.0,
+        76.0
+      ],
+      "area": 6992.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_03",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          140.0,
+          150.0,
+          232.0,
+          226.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 50,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        143.0,
+        82.0,
+        55.0,
+        57.0
+      ],
+      "area": 3135.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 51,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        184.0,
+        82.0,
+        76.0,
+        92.0
+      ],
+      "area": 6992.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_05",
+        "pose": "standing_occluded",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 52,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        544.0,
+        72.0,
+        69.0,
+        73.0
+      ],
+      "area": 5037.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_06",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 53,
+      "image_id": 23,
+      "category_id": 1,
+      "bbox": [
+        561.0,
+        122.0,
+        79.0,
+        100.0
+      ],
+      "area": 7900.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H023_07",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          561.0,
+          122.0,
+          640.0,
+          222.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 54,
+      "image_id": 24,
+      "category_id": 1,
+      "bbox": [
+        547.0,
+        71.0,
+        74.0,
+        74.0
+      ],
+      "area": 5476.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H024_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 55,
+      "image_id": 24,
+      "category_id": 1,
+      "bbox": [
+        565.0,
+        136.0,
+        75.0,
+        88.0
+      ],
+      "area": 6600.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H024_02",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          565.0,
+          136.0,
+          640.0,
+          224.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 56,
+      "image_id": 25,
+      "category_id": 1,
+      "bbox": [
+        261.0,
+        55.0,
+        68.0,
+        71.0
+      ],
+      "area": 4828.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H025_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 57,
+      "image_id": 26,
+      "category_id": 1,
+      "bbox": [
+        267.0,
+        61.0,
+        62.0,
+        66.0
+      ],
+      "area": 4092.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H026_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 58,
+      "image_id": 27,
+      "category_id": 1,
+      "bbox": [
+        58.0,
+        111.0,
+        73.0,
+        75.0
+      ],
+      "area": 5475.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H027_01",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 59,
+      "image_id": 27,
+      "category_id": 1,
+      "bbox": [
+        250.0,
+        61.0,
+        79.0,
+        71.0
+      ],
+      "area": 5609.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H027_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 60,
+      "image_id": 28,
+      "category_id": 1,
+      "bbox": [
+        60.0,
+        108.0,
+        72.0,
+        79.0
+      ],
+      "area": 5688.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H028_01",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 61,
+      "image_id": 28,
+      "category_id": 1,
+      "bbox": [
+        261.0,
+        60.0,
+        66.0,
+        73.0
+      ],
+      "area": 4818.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H028_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 62,
+      "image_id": 28,
+      "category_id": 1,
+      "bbox": [
+        426.0,
+        65.0,
+        81.0,
+        67.0
+      ],
+      "area": 5427.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H028_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 63,
+      "image_id": 28,
+      "category_id": 1,
+      "bbox": [
+        547.0,
+        65.0,
+        76.0,
+        68.0
+      ],
+      "area": 5168.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H028_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 64,
+      "image_id": 29,
+      "category_id": 1,
+      "bbox": [
+        77.0,
+        92.0,
+        69.0,
+        92.0
+      ],
+      "area": 6348.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H029_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          77.0,
+          92.0,
+          146.0,
+          184.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 65,
+      "image_id": 29,
+      "category_id": 1,
+      "bbox": [
+        141.0,
+        82.0,
+        73.0,
+        73.0
+      ],
+      "area": 5329.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H029_02",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 66,
+      "image_id": 29,
+      "category_id": 1,
+      "bbox": [
+        250.0,
+        68.0,
+        78.0,
+        66.0
+      ],
+      "area": 5148.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H029_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 67,
+      "image_id": 29,
+      "category_id": 1,
+      "bbox": [
+        428.0,
+        68.0,
+        82.0,
+        64.0
+      ],
+      "area": 5248.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H029_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 68,
+      "image_id": 29,
+      "category_id": 1,
+      "bbox": [
+        551.0,
+        74.0,
+        66.0,
+        73.0
+      ],
+      "area": 4818.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H029_05",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 69,
+      "image_id": 29,
+      "category_id": 1,
+      "bbox": [
+        585.0,
+        111.0,
+        55.0,
+        91.0
+      ],
+      "area": 5005.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H029_06",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          585.0,
+          111.0,
+          640.0,
+          202.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 70,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        86.0,
+        88.0,
+        65.0,
+        111.0
+      ],
+      "area": 7215.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H030_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          86.0,
+          88.0,
+          151.0,
+          199.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 71,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        257.0,
+        63.0,
+        71.0,
+        71.0
+      ],
+      "area": 5041.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H030_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 72,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        435.0,
+        61.0,
+        75.0,
+        74.0
+      ],
+      "area": 5550.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H030_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 73,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        560.0,
+        82.0,
+        53.0,
+        69.0
+      ],
+      "area": 3657.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H030_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 74,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        563.0,
+        112.0,
+        77.0,
+        114.0
+      ],
+      "area": 8778.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H030_05",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          563.0,
+          112.0,
+          640.0,
+          226.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 75,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        601.0,
+        67.0,
+        39.0,
+        70.0
+      ],
+      "area": 2730.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H030_06",
+        "pose": "standing_occluded",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 76,
+      "image_id": 31,
+      "category_id": 1,
+      "bbox": [
+        79.0,
+        89.0,
+        67.0,
+        100.0
+      ],
+      "area": 6700.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H031_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          79.0,
+          89.0,
+          146.0,
+          189.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 77,
+      "image_id": 31,
+      "category_id": 1,
+      "bbox": [
+        153.0,
+        83.0,
+        67.0,
+        64.0
+      ],
+      "area": 4288.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H031_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 78,
+      "image_id": 31,
+      "category_id": 1,
+      "bbox": [
+        257.0,
+        67.0,
+        69.0,
+        66.0
+      ],
+      "area": 4554.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H031_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 79,
+      "image_id": 31,
+      "category_id": 1,
+      "bbox": [
+        435.0,
+        66.0,
+        81.0,
+        69.0
+      ],
+      "area": 5589.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H031_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 80,
+      "image_id": 32,
+      "category_id": 1,
+      "bbox": [
+        81.0,
+        87.0,
+        70.0,
+        95.0
+      ],
+      "area": 6650.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H032_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          81.0,
+          87.0,
+          151.0,
+          182.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 81,
+      "image_id": 32,
+      "category_id": 1,
+      "bbox": [
+        155.0,
+        81.0,
+        64.0,
+        56.0
+      ],
+      "area": 3584.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H032_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 82,
+      "image_id": 32,
+      "category_id": 1,
+      "bbox": [
+        260.0,
+        53.0,
+        72.0,
+        76.0
+      ],
+      "area": 5472.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H032_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 83,
+      "image_id": 32,
+      "category_id": 1,
+      "bbox": [
+        431.0,
+        60.0,
+        81.0,
+        73.0
+      ],
+      "area": 5913.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H032_04",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 84,
+      "image_id": 33,
+      "category_id": 1,
+      "bbox": [
+        84.0,
+        89.0,
+        66.0,
+        95.0
+      ],
+      "area": 6270.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H033_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          84.0,
+          89.0,
+          150.0,
+          184.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 85,
+      "image_id": 33,
+      "category_id": 1,
+      "bbox": [
+        153.0,
+        82.0,
+        62.0,
+        56.0
+      ],
+      "area": 3472.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H033_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 86,
+      "image_id": 33,
+      "category_id": 1,
+      "bbox": [
+        432.0,
+        65.0,
+        78.0,
+        70.0
+      ],
+      "area": 5460.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H033_03",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 87,
+      "image_id": 34,
+      "category_id": 1,
+      "bbox": [
+        458.0,
+        72.0,
+        66.0,
+        61.0
+      ],
+      "area": 4026.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H034_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 88,
+      "image_id": 35,
+      "category_id": 1,
+      "bbox": [
+        458.0,
+        63.0,
+        63.0,
+        69.0
+      ],
+      "area": 4347.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H035_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 89,
+      "image_id": 36,
+      "category_id": 1,
+      "bbox": [
+        437.0,
+        73.0,
+        74.0,
+        66.0
+      ],
+      "area": 4884.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H036_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 90,
+      "image_id": 36,
+      "category_id": 1,
+      "bbox": [
+        577.0,
+        64.0,
+        62.0,
+        71.0
+      ],
+      "area": 4402.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H036_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 91,
+      "image_id": 37,
+      "category_id": 1,
+      "bbox": [
+        437.0,
+        74.0,
+        79.0,
+        65.0
+      ],
+      "area": 5135.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H037_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 92,
+      "image_id": 37,
+      "category_id": 1,
+      "bbox": [
+        579.0,
+        75.0,
+        57.0,
+        71.0
+      ],
+      "area": 4047.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H037_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 93,
+      "image_id": 38,
+      "category_id": 1,
+      "bbox": [
+        587.0,
+        53.0,
+        53.0,
+        69.0
+      ],
+      "area": 3657.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H038_01",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 94,
+      "image_id": 39,
+      "category_id": 1,
+      "bbox": [
+        80.0,
+        96.0,
+        70.0,
+        103.0
+      ],
+      "area": 7210.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H039_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          80.0,
+          96.0,
+          150.0,
+          199.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 95,
+      "image_id": 39,
+      "category_id": 1,
+      "bbox": [
+        578.0,
+        57.0,
+        59.0,
+        83.0
+      ],
+      "area": 4897.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H039_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 96,
+      "image_id": 40,
+      "category_id": 1,
+      "bbox": [
+        73.0,
+        80.0,
+        70.0,
+        114.0
+      ],
+      "area": 7980.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H040_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          73.0,
+          80.0,
+          143.0,
+          194.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 97,
+      "image_id": 40,
+      "category_id": 1,
+      "bbox": [
+        260.0,
+        48.0,
+        74.0,
+        90.0
+      ],
+      "area": 6660.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H040_02",
+        "pose": "standing_occluded",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 98,
+      "image_id": 41,
+      "category_id": 1,
+      "bbox": [
+        73.0,
+        84.0,
+        68.0,
+        104.0
+      ],
+      "area": 7072.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H041_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          73.0,
+          84.0,
+          141.0,
+          188.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 99,
+      "image_id": 41,
+      "category_id": 1,
+      "bbox": [
+        134.0,
+        203.0,
+        136.0,
+        121.0
+      ],
+      "area": 16456.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H041_02",
+        "pose": "walking",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          134.0,
+          203.0,
+          270.0,
+          324.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 100,
+      "image_id": 41,
+      "category_id": 1,
+      "bbox": [
+        216.0,
+        127.0,
+        116.0,
+        110.0
+      ],
+      "area": 12760.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H041_03",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          216.0,
+          127.0,
+          332.0,
+          237.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 101,
+      "image_id": 42,
+      "category_id": 1,
+      "bbox": [
+        74.0,
+        83.0,
+        66.0,
+        104.0
+      ],
+      "area": 6864.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H042_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          74.0,
+          83.0,
+          140.0,
+          187.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 102,
+      "image_id": 43,
+      "category_id": 1,
+      "bbox": [
+        74.0,
+        87.0,
+        66.0,
+        98.0
+      ],
+      "area": 6468.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H043_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          74.0,
+          87.0,
+          140.0,
+          185.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 103,
+      "image_id": 43,
+      "category_id": 1,
+      "bbox": [
+        551.0,
+        81.0,
+        89.0,
+        116.0
+      ],
+      "area": 10324.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H043_02",
+        "pose": "leaning_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 104,
+      "image_id": 44,
+      "category_id": 1,
+      "bbox": [
+        77.0,
+        89.0,
+        66.0,
+        104.0
+      ],
+      "area": 6864.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H044_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          77.0,
+          89.0,
+          143.0,
+          193.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 105,
+      "image_id": 45,
+      "category_id": 1,
+      "bbox": [
+        71.0,
+        96.0,
+        71.0,
+        88.0
+      ],
+      "area": 6248.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H045_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          71.0,
+          96.0,
+          142.0,
+          184.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 106,
+      "image_id": 46,
+      "category_id": 1,
+      "bbox": [
+        42.0,
+        150.0,
+        96.0,
+        101.0
+      ],
+      "area": 9696.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H046_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          42.0,
+          150.0,
+          138.0,
+          251.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 107,
+      "image_id": 46,
+      "category_id": 1,
+      "bbox": [
+        271.0,
+        72.0,
+        64.0,
+        75.0
+      ],
+      "area": 4800.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H046_02",
+        "pose": "standing_occluded",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 108,
+      "image_id": 47,
+      "category_id": 1,
+      "bbox": [
+        80.0,
+        97.0,
+        61.0,
+        85.0
+      ],
+      "area": 5185.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H047_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          80.0,
+          97.0,
+          141.0,
+          182.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 109,
+      "image_id": 47,
+      "category_id": 1,
+      "bbox": [
+        282.0,
+        69.0,
+        57.0,
+        83.0
+      ],
+      "area": 4731.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H047_02",
+        "pose": "standing_occluded",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 110,
+      "image_id": 48,
+      "category_id": 1,
+      "bbox": [
+        80.0,
+        94.0,
+        62.0,
+        89.0
+      ],
+      "area": 5518.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H048_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          80.0,
+          94.0,
+          142.0,
+          183.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 111,
+      "image_id": 49,
+      "category_id": 1,
+      "bbox": [
+        63.0,
+        167.0,
+        119.0,
+        104.0
+      ],
+      "area": 12376.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H049_01",
+        "pose": "walking",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          63.0,
+          167.0,
+          182.0,
+          271.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 112,
+      "image_id": 49,
+      "category_id": 1,
+      "bbox": [
+        83.0,
+        82.0,
+        70.0,
+        101.0
+      ],
+      "area": 7070.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H049_02",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          83.0,
+          82.0,
+          153.0,
+          183.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 113,
+      "image_id": 50,
+      "category_id": 1,
+      "bbox": [
+        82.0,
+        90.0,
+        70.0,
+        92.0
+      ],
+      "area": 6440.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H050_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          82.0,
+          90.0,
+          152.0,
+          182.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 114,
+      "image_id": 51,
+      "category_id": 1,
+      "bbox": [
+        84.0,
+        77.0,
+        60.0,
+        106.0
+      ],
+      "area": 6360.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H051_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          84.0,
+          77.0,
+          144.0,
+          183.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 115,
+      "image_id": 52,
+      "category_id": 1,
+      "bbox": [
+        53.0,
+        117.0,
+        81.0,
+        90.0
+      ],
+      "area": 7290.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H052_01",
+        "pose": "bending",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          53.0,
+          117.0,
+          134.0,
+          207.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 116,
+      "image_id": 53,
+      "category_id": 1,
+      "bbox": [
+        78.0,
+        85.0,
+        67.0,
+        100.0
+      ],
+      "area": 6700.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H053_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          78.0,
+          85.0,
+          145.0,
+          185.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 117,
+      "image_id": 54,
+      "category_id": 1,
+      "bbox": [
+        82.0,
+        93.0,
+        68.0,
+        93.0
+      ],
+      "area": 6324.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H054_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          82.0,
+          93.0,
+          150.0,
+          186.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 118,
+      "image_id": 55,
+      "category_id": 1,
+      "bbox": [
+        83.0,
+        75.0,
+        71.0,
+        118.0
+      ],
+      "area": 8378.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H055_01",
+        "pose": "standing",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          83.0,
+          75.0,
+          154.0,
+          193.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 119,
+      "image_id": 56,
+      "category_id": 1,
+      "bbox": [
+        81.0,
+        95.0,
+        66.0,
+        92.0
+      ],
+      "area": 6072.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H056_01",
+        "pose": "leaning",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          81.0,
+          95.0,
+          147.0,
+          187.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 120,
+      "image_id": 57,
+      "category_id": 1,
+      "bbox": [
+        169.0,
+        163.0,
+        148.0,
+        140.0
+      ],
+      "area": 20720.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H057_01",
+        "pose": "walking",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          169.0,
+          163.0,
+          317.0,
+          303.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 121,
+      "image_id": 57,
+      "category_id": 1,
+      "bbox": [
+        330.0,
+        130.0,
+        91.0,
+        149.0
+      ],
+      "area": 13559.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H057_02",
+        "pose": "walking",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          330.0,
+          130.0,
+          421.0,
+          279.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 122,
+      "image_id": 58,
+      "category_id": 1,
+      "bbox": [
+        225.0,
+        145.0,
+        108.0,
+        84.0
+      ],
+      "area": 9072.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H058_01",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          225.0,
+          145.0,
+          333.0,
+          229.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 123,
+      "image_id": 58,
+      "category_id": 1,
+      "bbox": [
+        268.0,
+        77.0,
+        63.0,
+        59.0
+      ],
+      "area": 3717.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H058_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 124,
+      "image_id": 59,
+      "category_id": 1,
+      "bbox": [
+        229.0,
+        138.0,
+        105.0,
+        91.0
+      ],
+      "area": 9555.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H059_01",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          229.0,
+          138.0,
+          334.0,
+          229.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 125,
+      "image_id": 59,
+      "category_id": 1,
+      "bbox": [
+        258.0,
+        71.0,
+        71.0,
+        66.0
+      ],
+      "area": 4686.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H059_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 126,
+      "image_id": 60,
+      "category_id": 1,
+      "bbox": [
+        236.0,
+        142.0,
+        97.0,
+        86.0
+      ],
+      "area": 8342.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H060_01",
+        "pose": "seated_front",
+        "full_extent_observable": true,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": [
+          236.0,
+          142.0,
+          333.0,
+          228.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 127,
+      "image_id": 60,
+      "category_id": 1,
+      "bbox": [
+        262.0,
+        71.0,
+        68.0,
+        67.0
+      ],
+      "area": 4556.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H060_02",
+        "pose": "seated_table",
+        "full_extent_observable": false,
+        "geometry_usable": false,
+        "full_extent_box_xyxy_native": null,
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 128,
+      "image_id": 61,
+      "category_id": 1,
+      "bbox": [
+        303.0,
+        80.0,
+        91.0,
+        91.0
+      ],
+      "area": 8281.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H061_01",
+        "pose": "standing",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          303.0,
+          80.0,
+          394.0,
+          171.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    },
+    {
+      "id": 129,
+      "image_id": 62,
+      "category_id": 1,
+      "bbox": [
+        28.0,
+        151.0,
+        85.0,
+        105.0
+      ],
+      "area": 8925.0,
+      "iscrowd": 0,
+      "attributes": {
+        "annotation_id": "H062_01",
+        "pose": "bending",
+        "full_extent_observable": true,
+        "geometry_usable": true,
+        "full_extent_box_xyxy_native": [
+          28.0,
+          151.0,
+          113.0,
+          256.0
+        ],
+        "estimated_hidden_extent": false
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "person_visible"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "selection": "Frozen DINOv2 crop diversity + >=180s from all previous labels + >=300s between new selected frames",
+  "test_frames_used": false,
+  "source_proposals": "Same-day-only teacher; hints must be visually corrected",
+  "status": "Visually reviewed; final coordinate QA complete; no model promoted.",
+  "selected_frames": 62,
+  "frames_by_day": {
+    "20261025": 21,
+    "20261026": 41
+  },
+  "reviewed_people": 129,
+  "strict_geometry_candidates": 42
+}

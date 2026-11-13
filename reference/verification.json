@@ -36,5 +36,19 @@
     "selected_candidate": null,
     "new_test_submission_created": false,
     "default_changed": false
+  },
+  "diverse_person_annotations": {
+    "reviewed_frames": 62,
+    "reviewed_people": 129,
+    "supported_full_boxes": 57,
+    "nonredundant_geometry_boxes": 42,
+    "unknown_full_targets_withheld": 72,
+    "prepared_extra_context_frames": 20,
+    "prepared_extra_targets": 24,
+    "raw_image_hashes_checked": 62,
+    "prepared_image_and_label_files_reproduced_exactly": 208,
+    "cached_metric_rows_reproduced": 66,
+    "default_changed": false,
+    "new_test_submission_created": false
   }
 }

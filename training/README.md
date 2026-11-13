@@ -7,6 +7,15 @@
 - `annotations/person_boxes.csv`: исходные люди и проверенные дополнительные люди на train-контексте; скрытые границы часто приблизительные, что отмечено в `extent_inferred`.
 - `annotations/semantic_labels.csv`: явные метки person/clothes; ambiguous исключаются. Метка error не используется как замена разметке одежды.
 
+Дополнительно подготовлен [набор сложных поз](annotations/diverse_person/README.md): 62 новых TRAIN-кадра, 129 наблюдений людей, 42 неповторяющихся бокса с подтверждёнными границами. У 72 наблюдений скрытые полные границы неизвестны и оставлены пустыми. Этот набор не подмешивается автоматически в стандартный `train.py`: для него нужен отдельный загрузчик, учитывающий неполную разметку.
+
+```bash
+uv run python training/diverse_person_data.py --data-dir /path/to/DATA_DIR --prepare
+uv run python training/train_diverse_person.py --stage evaluate
+```
+
+Проверенное дообучение с этим набором не улучшило готовую схему. Данные и эксперимент сохранены отдельно; текущие веса воспроизводятся прежней командой ниже.
+
 ```bash
 uv sync --extra vision
 uv run python training/train.py --data-dir /path/to/DATA_DIR --output outputs/retrained

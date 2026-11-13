@@ -41,6 +41,22 @@
       "new_submission_created": false,
       "reason": "Visible-body masks cannot complete table-occluded limbs; mask features did not outperform detector-only control.",
       "additional_prompt_ablation_passed": false
+    },
+    "independent_train_person_annotations": {
+      "reviewed_frames": 62,
+      "reviewed_people": 129,
+      "supported_full_extrema": 57,
+      "nonredundant_geometry_boxes": 42,
+      "unknown_hidden_full_extents_withheld": 72,
+      "prepared_context_frames": 20,
+      "prepared_additional_targets": 24,
+      "mean_overall_AP": 0.9560748807604196,
+      "baseline_mean_overall_AP": 0.9579534774983767,
+      "day2_person_AP": 0.8398183834412465,
+      "baseline_day2_person_AP": 0.8555755641724241,
+      "passed_strict_gate": false,
+      "default_changed": false,
+      "new_submission_created": false
     }
   },
   "default_changed": false,

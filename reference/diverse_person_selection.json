@@ -1,0 +1,7 @@
+{
+  "chosen": null,
+  "public_AP": null,
+  "default_changed": false,
+  "criterion": "Both days all/person/test-like nondecreasing; mean overall gain >=.002; mean person gain >=.01; beats identically trained no-new-label control by .001 overall.",
+  "caveat": "Exploratory on two reused days; new annotation coordinates are manual estimates, and hidden extents were not used as full-body targets."
+}
