@@ -3,7 +3,7 @@ import json
 import numpy as np
 import pandas as pd
 import pytest
-from detector_error_discovery.core import assignment, compose, verify_models
+from detector_error_discovery.core import apply_person_geometry, assignment, compose, verify_models
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -54,3 +54,32 @@ def test_experimental_hand_recipe_requires_consensus():
     signals = pd.read_csv(ROOT/'reference/signals.csv', dtype={'id': str}).drop(columns='hand_consensus')
     with pytest.raises(ValueError, match='requires hand_consensus'):
         compose(features, signals, ROOT, dict(config, hand_geometry='sharp_rotation_confidence'))
+
+
+def test_fullbody_evidence_distinguishes_truncation_from_neighbor():
+    from detector_error_discovery.person_geometry import evidence
+    rows = pd.DataFrame(dict(id=['cut', 'full', 'neighbor', 'cup'], frame_id=['f']*4,
+                             class_name=['person', 'person', 'person', 'cup'],
+                             x1=[100, 100, 500, 100], y1=[100]*4,
+                             x2=[200, 200, 600, 200], y2=[250, 400, 250, 250]))
+    raw = [dict(frame_id='f', boxes=[[100, 100, 200, 400]], confidence=[.95])]
+    signal = evidence(rows, raw).person_truncation
+    assert signal.iloc[0] > .95
+    assert signal.iloc[1] < .03
+    assert signal.iloc[2] == 0
+    assert signal.iloc[3] == 0
+
+
+def test_person_recipe_reproduces_both_bases_and_preserves_other_classes():
+    features = pd.read_csv(ROOT/'reference/features.csv', dtype={'id': str})
+    signal = pd.read_csv(ROOT/'reference/person_truncation_signals.csv', dtype={'id': str}).set_index('id').loc[features.id].reset_index()
+    for base, expected in [('submission.csv', 'submission_person_truncation.csv'),
+                           ('submission_public_087853.csv', 'submission_person_truncation_publicbase.csv')]:
+        original = pd.read_csv(ROOT/'reference'/base, dtype={'id': str}).set_index('id')
+        old = features.id.map(original.score)
+        new = apply_person_geometry(old, features, signal)
+        target = features.id.map(pd.read_csv(ROOT/'reference'/expected, dtype={'id': str}).set_index('id').score)
+        np.testing.assert_allclose(new, target, rtol=0, atol=1e-12)
+        other = features.class_name.ne('person')
+        np.testing.assert_array_equal(old.loc[other], new.loc[other])
+        assert new.ge(old).all()

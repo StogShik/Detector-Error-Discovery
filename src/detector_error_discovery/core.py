@@ -120,6 +120,18 @@ def apply_hand_geometry(score, features, signals, recipe='standard'):
     return score
 
 
+def apply_person_geometry(score, features, signals):
+    if 'person_truncation' not in signals:
+        raise ValueError('The person recipe requires person_truncation signals.')
+    evidence = signals.person_truncation
+    if not np.isfinite(evidence).all() or not evidence.between(0, 1).all():
+        raise ValueError('Person truncation evidence must be finite and in [0, 1].')
+    score = score.copy()
+    person = features.class_name.eq('person')
+    score.loc[person] += .5 * evidence.loc[person] * (1-score.loc[person])
+    return score
+
+
 def compose(features, signals, root, config):
     if features.id.duplicated().any() or signals.id.duplicated().any() or set(features.id) != set(signals.id):
         raise ValueError('Features and signals must contain identical unique detection IDs.')
@@ -138,6 +150,8 @@ def compose(features, signals, root, config):
         order = (.75 * score.loc[group.index] + .25 * signals.loc[group.index, 'grounded_small']).sort_values(kind='stable').index
         score.loc[order] = np.sort(score.loc[group.index])
     score = apply_hand_geometry(score, features, signals, config.get('hand_geometry', 'standard'))
+    if config.get('person_geometry') == 'truncation':
+        score = apply_person_geometry(score, features, signals)
     if not np.isfinite(score).all() or not score.between(0, 1).all():
         raise ValueError('Scores must be finite values in [0, 1].')
     return features[['id']].assign(score=score)

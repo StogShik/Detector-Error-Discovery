@@ -1,0 +1,16 @@
+{
+  "model": "ByteTrack YOLOX-X MOT17 mixed",
+  "depth": 1.33,
+  "width": 1.25,
+  "input_size": [
+    800,
+    1440
+  ],
+  "pretrained_url": "https://drive.google.com/file/d/1P4mY0Yyd3PPTybgZkjMYhFri88nTmJX5/view",
+  "source_repository": "https://github.com/FoundationVision/ByteTrack",
+  "normalization": "RGB/255, ImageNet mean/std; pad top-left 114",
+  "model_fitting": "Frozen public weights, no local adaptation",
+  "minimum_confidence": 0.01,
+  "nms_iou": 0.7,
+  "sha256": "e3945f3523fde1e107708aacd64dab0670c34e371d136e54587cac7a50d3cfba"
+}

@@ -1,0 +1,32 @@
+{
+  "chosen": "truncation_w0.5",
+  "public_AP": null,
+  "formula": "score += weight * truncation_evidence * (1-score)",
+  "fixed_weights": [
+    0.35,
+    0.5,
+    0.65
+  ],
+  "criterion": "Both days nondecreasing overall/person/test-like; mean overall gain >=.002, mean person gain >=.015",
+  "caveat": "Exploratory selection on only two repeatedly reused days; Public unmeasured.",
+  "conditional_bootstrap_all": {
+    "delta_percentiles": [
+      -0.0017848888920856982,
+      0.007281004542696257,
+      0.022561981548311637
+    ],
+    "positive_fraction": 0.942,
+    "limitation": "Conditional on selection on the same two days, not an independent test interval."
+  },
+  "conditional_bootstrap_person": {
+    "delta_percentiles": [
+      -0.019753339979084836,
+      0.030396457959419865,
+      0.10788650725939096
+    ],
+    "positive_fraction": 0.8846666666666667,
+    "limitation": "Conditional on selection on the same two days, not an independent test interval."
+  },
+  "mean_person_AP": 0.9351515026327057,
+  "mean_all_AP": 0.9655912289219649
+}

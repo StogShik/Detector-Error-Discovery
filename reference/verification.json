@@ -5,12 +5,25 @@
   "source": "Full raw-image and raw-table prediction using the isolated repository and bundled selected weights.",
   "device": "Apple M4 / MPS; MediaPipe CPU",
   "compact_public_AP": null,
-  "tests": "pytest: 6 passed; standard and optional recipe replay checks; non-hand scores preserved.",
+  "tests": "pytest: 8 passed; standard, optional hand and person replay checks; non-target class scores preserved.",
   "experimental_hand_recipe": {
     "rows": 362,
     "maximum_absolute_score_difference": 0.0,
     "default_changed": false,
     "public_AP": null,
     "changed_scores": 76
+  },
+  "experimental_person_recipe": {
+    "raw_image_frames": 83,
+    "rows": 362,
+    "maximum_absolute_score_difference": 0.0,
+    "changed_scores": 130,
+    "evidence_over_05": 9,
+    "other_classes_exactly_preserved": true,
+    "base_public_AP": 0.87853,
+    "corrected_public_AP": null,
+    "source_sha256": "9a01485aca01a2934ab057c8f12a257ecfb991d3f5ce7cffa973fb5e7458c352",
+    "default_changed": false,
+    "weights_downloaded": true
   }
 }
