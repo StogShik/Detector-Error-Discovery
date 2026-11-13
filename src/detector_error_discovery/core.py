@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy.optimize import linear_sum_assignment
-from scipy.special import expit
+from scipy.special import expit, logit
 
 BOX = ['x1', 'y1', 'x2', 'y2']
 NAMES = ['person', 'nude_hands', 'cup', 'tray']
@@ -100,6 +100,26 @@ def tabular_scores(features, root, config):
     return score + clothes * (1 - score)
 
 
+def apply_hand_geometry(score, features, signals, recipe='standard'):
+    """Optional rotation-aware candidate; standard remains the shipped default."""
+    score = score.copy()
+    found = features.class_name.eq('nude_hands') & signals.hand_found.fillna(False).astype(bool)
+    risk = signals.hand_risk
+    if recipe == 'standard':
+        weight = .3
+    elif recipe == 'sharp_rotation_confidence':
+        if 'hand_consensus' not in signals:
+            raise ValueError('The experimental hand recipe requires hand_consensus signals.')
+        count = signals.hand_consensus.fillna(0)
+        weight = .3 + .2 * ((count - 1) / 3).clip(0, 1)
+        weight = weight.loc[found]
+        risk = expit(1.5 * logit(risk.clip(1e-8, 1-1e-8)))
+    else:
+        raise ValueError(f'Unknown hand geometry recipe: {recipe}')
+    score.loc[found] = (1-weight) * score.loc[found] + weight * risk.loc[found]
+    return score
+
+
 def compose(features, signals, root, config):
     if features.id.duplicated().any() or signals.id.duplicated().any() or set(features.id) != set(signals.id):
         raise ValueError('Features and signals must contain identical unique detection IDs.')
@@ -117,8 +137,7 @@ def compose(features, signals, root, config):
     for _, group in features.loc[features.class_name.eq('tray')].groupby('day'):
         order = (.75 * score.loc[group.index] + .25 * signals.loc[group.index, 'grounded_small']).sort_values(kind='stable').index
         score.loc[order] = np.sort(score.loc[group.index])
-    found = features.class_name.eq('nude_hands') & signals.hand_found.fillna(False).astype(bool)
-    score.loc[found] = .7 * score.loc[found] + .3 * signals.loc[found, 'hand_risk']
+    score = apply_hand_geometry(score, features, signals, config.get('hand_geometry', 'standard'))
     if not np.isfinite(score).all() or not score.between(0, 1).all():
         raise ValueError('Scores must be finite values in [0, 1].')
     return features[['id']].assign(score=score)

@@ -1,0 +1,28 @@
+{
+  "rows": 198,
+  "days": {
+    "20261025": {
+      "standard_AP": 0.9599565227160383,
+      "candidate_AP": 0.9610474492827434,
+      "delta": 0.0010909265667051748
+    },
+    "20261026": {
+      "standard_AP": 0.956373249052412,
+      "candidate_AP": 0.9574973116255387,
+      "delta": 0.001124062573126805
+    }
+  },
+  "standard_mean_AP": 0.9581648858842251,
+  "candidate_mean_AP": 0.9592723804541411,
+  "conditional_bootstrap_delta_percentiles": [
+    -0.004447886956017904,
+    0.0008979081290692026,
+    0.006197927035190048
+  ],
+  "bootstrap_positive_fraction": 0.6406666666666667,
+  "input_sha256": "08a2ce31a4a5cf99e4537ec6c4d67b0283e3bd606f5eb0afd8ae39cc8928ef7c",
+  "strict_improvement_gate_passed": false,
+  "default_changed": false,
+  "public_AP": null,
+  "limitation": "Recipe selected after finite experiments on these same two reused train days. Bootstrap is conditional on selection, not independent evidence. The candidate failed the predeclared .002 mean-gain gate and remains opt-in."
+}

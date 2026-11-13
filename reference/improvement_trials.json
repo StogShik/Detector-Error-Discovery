@@ -1,0 +1,30 @@
+{
+  "experiments": {
+    "compact_recipe_tuning": {
+      "best_method": "person_gdi_065",
+      "best_mean_local_AP": 0.9582401858552667,
+      "reference_mean_local_AP": 0.9581648858842251,
+      "passed_strict_gate": false
+    },
+    "compact_grounded_mirror": {
+      "best_method": "box_consensus",
+      "best_mean_local_AP": 0.9578282148383632,
+      "reference_mean_local_AP": 0.9581648858842251,
+      "passed_strict_gate": false
+    },
+    "compact_person_prompt": {
+      "best_method": "supported_mean",
+      "best_mean_local_AP": 0.9581789329533941,
+      "reference_mean_local_AP": 0.9581648858842251,
+      "passed_strict_gate": false
+    },
+    "compact_hand_consensus": {
+      "best_method": "sharp_rotation_confidence",
+      "best_mean_local_AP": 0.9592723804541411,
+      "reference_mean_local_AP": 0.9581648858842251,
+      "passed_strict_gate": false
+    }
+  },
+  "default_changed": false,
+  "public_improvement_confirmed": false
+}

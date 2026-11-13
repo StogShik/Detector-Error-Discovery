@@ -186,5 +186,6 @@ def infer(features, data, root, config, cache, device='auto'):
     hands = summarize(features.loc[features.class_name.eq('nude_hands')], extract(features, data, root/'models/hand_landmarker.task', cache/'hands.json')).set_index('id')
     signals['hand_found'] = features.id.map(hands.hand_found).fillna(False).astype(bool)
     signals['hand_risk'] = features.id.map(hands.risk)
+    signals['hand_consensus'] = features.id.map(hands.consensus).fillna(0)
     features.to_csv(cache/'features.csv', index=False); signals.to_csv(cache/'signals.csv', index=False)
     return features, signals

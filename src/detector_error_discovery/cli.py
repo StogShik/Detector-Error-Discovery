@@ -15,6 +15,7 @@ def main():
     parser.add_argument('--output', type=Path, default=Path('outputs/submission.csv'))
     parser.add_argument('--cache-dir', type=Path, default=Path('.cache/predictions'))
     parser.add_argument('--device', default='auto')
+    parser.add_argument('--recipe', choices=['standard', 'hand-consensus'], default='standard', help='Optional experimental hand consensus recipe; default is unchanged')
     args = parser.parse_args()
     root = args.root.resolve()
     config = verify_models(root)
@@ -42,6 +43,8 @@ def main():
             if features.empty:
                 parser.error('No detections found for requested day')
         features, signals = infer(features, args.data_dir, root, config, args.cache_dir, args.device)
+    if args.recipe == 'hand-consensus':
+        config = dict(config, hand_geometry='sharp_rotation_confidence')
     prediction = compose(features, signals, root, config)
     template_path = root/'reference/submission.csv' if args.mode == 'replay' else args.data_dir/'sample_submission.csv'
     if args.split == 'test' or args.mode == 'replay':
@@ -50,7 +53,8 @@ def main():
             raise ValueError('Submission IDs do not match the sample submission.')
         prediction = template.merge(prediction, on='id', validate='one_to_one', sort=False)
     if args.mode == 'replay':
-        expected = pd.read_csv(root/'reference/submission.csv', dtype={'id': str})
+        filename = 'submission_hand_consensus.csv' if args.recipe == 'hand-consensus' else 'submission.csv'
+        expected = pd.read_csv(root/'reference'/filename, dtype={'id': str})
         np.testing.assert_array_equal(prediction.id, expected.id)
         np.testing.assert_allclose(prediction.score, expected.score, atol=1e-12, rtol=0)
     args.output.parent.mkdir(parents=True, exist_ok=True)

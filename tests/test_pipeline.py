@@ -34,3 +34,23 @@ def test_rejects_duplicated_ids():
     signals = pd.read_csv(ROOT/'reference/signals.csv', dtype={'id': str})
     with pytest.raises(ValueError, match='unique detection IDs'):
         compose(features, pd.concat([signals, signals.iloc[:1]]), ROOT, json.loads((ROOT/'config.json').read_text()))
+
+
+def test_experimental_hand_recipe_matches_fixture_and_preserves_other_classes():
+    config = verify_models(ROOT)
+    features = pd.read_csv(ROOT/'reference/features.csv', dtype={'id': str})
+    signals = pd.read_csv(ROOT/'reference/signals.csv', dtype={'id': str})
+    baseline = compose(features, signals, ROOT, config).set_index('id')
+    actual = compose(features, signals, ROOT, dict(config, hand_geometry='sharp_rotation_confidence')).set_index('id')
+    expected = pd.read_csv(ROOT/'reference/submission_hand_consensus.csv', dtype={'id': str}).set_index('id')
+    np.testing.assert_allclose(actual.loc[expected.index, 'score'], expected.score, atol=1e-12, rtol=0)
+    untouched = features.loc[features.class_name.ne('nude_hands'), 'id']
+    np.testing.assert_array_equal(actual.loc[untouched, 'score'], baseline.loc[untouched, 'score'])
+
+
+def test_experimental_hand_recipe_requires_consensus():
+    config = verify_models(ROOT)
+    features = pd.read_csv(ROOT/'reference/features.csv', dtype={'id': str})
+    signals = pd.read_csv(ROOT/'reference/signals.csv', dtype={'id': str}).drop(columns='hand_consensus')
+    with pytest.raises(ValueError, match='requires hand_consensus'):
+        compose(features, signals, ROOT, dict(config, hand_geometry='sharp_rotation_confidence'))
