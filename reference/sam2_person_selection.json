@@ -1,0 +1,8 @@
+{
+  "chosen": null,
+  "public_AP": null,
+  "reference_public_AP": 0.87853,
+  "default_changed": false,
+  "criterion": "Both days all/person/test-like AP nondecreasing; mean all gain >=.002 and person >=.01; learned mask must exceed frozen-detector-only control mean all AP by .001.",
+  "caveat": "Exploratory on two repeatedly reused days, not an independent Public estimate."
+}

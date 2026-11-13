@@ -1,0 +1,25 @@
+{
+  "model": "SAM 2.1 Hiera Tiny",
+  "checkpoint_url": "https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_tiny.pt",
+  "source": "https://github.com/facebookresearch/sam2",
+  "config": "configs/sam2.1/sam2.1_hiera_t.yaml",
+  "frozen": true,
+  "version": 2,
+  "multimask": true,
+  "selection": "Highest SAM predicted mask quality; no GT selection",
+  "prompts": [
+    "original proposal box",
+    "independent frozen GDI box",
+    "two foreground torso points and neighboring negative points"
+  ],
+  "fitting": "Other UTC day only; frozen public signals, no supervised ranker features in fitting",
+  "logistic_C": 0.1,
+  "minimum_teacher_confidence": 0.3,
+  "input_sha256": "3c6f869bef045b9e97de400d12b6a397b3049d008cfb2d010110b1d9026f4de9",
+  "checkpoint_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "source_revision": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "training_detections": 84,
+  "frames": 34,
+  "negative_point_rule": "All other independent-detector torso seeds, including inside the proposal, except within 20px of own positive points.",
+  "earlier_ablation": "Excluding neighbor seeds inside proposal also failed; see sam2_person_v1_validation.csv"
+}

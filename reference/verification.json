@@ -26,5 +26,15 @@
     "default_changed": false,
     "weights_downloaded": true,
     "public_improvement_confirmed": false
+  },
+  "sam2_mask_experiment": {
+    "train_frames": 34,
+    "person_detections": 84,
+    "source_revision": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+    "initial_raw_image_reproduction_max_feature_difference": 0.0,
+    "second_prompt_ablation_raw_image_frames": 34,
+    "selected_candidate": null,
+    "new_test_submission_created": false,
+    "default_changed": false
   }
 }

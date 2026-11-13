@@ -23,6 +23,24 @@
       "best_mean_local_AP": 0.9592723804541411,
       "reference_mean_local_AP": 0.9581648858842251,
       "passed_strict_gate": false
+    },
+    "sam2_visible_person_masks": {
+      "model": "SAM 2.1 Hiera Tiny",
+      "prompt_modes": [
+        "proposal box",
+        "independent detector box",
+        "foreground torso points and negative neighbors"
+      ],
+      "mean_baseline_AP": 0.9579534774983767,
+      "mask_logistic_mean_AP": 0.9579530225426834,
+      "control_without_masks_mean_AP": 0.9580508610857671,
+      "person_day2_baseline_AP": 0.8555755641724241,
+      "person_day2_mask_AP": 0.8635554266215222,
+      "person_day2_control_AP": 0.8693099541783753,
+      "passed_strict_gate": false,
+      "new_submission_created": false,
+      "reason": "Visible-body masks cannot complete table-occluded limbs; mask features did not outperform detector-only control.",
+      "additional_prompt_ablation_passed": false
     }
   },
   "default_changed": false,
