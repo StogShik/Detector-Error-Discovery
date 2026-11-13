@@ -1,0 +1,40 @@
+{
+  "person_all": {
+    "kind": "person",
+    "scope": "all",
+    "epochs": 8,
+    "names": [
+      "person"
+    ],
+    "imgsz": 640,
+    "freeze": 10,
+    "seed": 41
+  },
+  "multi_all": {
+    "kind": "multi",
+    "scope": "all",
+    "epochs": 12,
+    "names": [
+      "person",
+      "nude_hands",
+      "cup",
+      "tray"
+    ],
+    "imgsz": 960,
+    "freeze": 10,
+    "seed": 41
+  },
+  "tiles_all": {
+    "kind": "tiles",
+    "scope": "all",
+    "epochs": 18,
+    "names": [
+      "nude_hands",
+      "cup",
+      "tray"
+    ],
+    "imgsz": 768,
+    "freeze": 10,
+    "seed": 41
+  }
+}

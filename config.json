@@ -1,0 +1,122 @@
+{
+  "recipe": "compact_6_vision_3_catboost",
+  "models": [
+    {
+      "file": "models/geometry_0.cbm",
+      "sha256": "8c182cdd2f70525ffbb6360c1f3e43cb86f6c37e001c419558fcd4c5a8270a04",
+      "family": "scene"
+    },
+    {
+      "file": "models/geometry_1.cbm",
+      "sha256": "33ed1993d70ef421224d8ee3dd14c5c6f5605e5d50c8dd73baf1db856029788d",
+      "family": "scene"
+    },
+    {
+      "file": "models/geometry_2.cbm",
+      "sha256": "fe57aa76a9670a991f535fd6cfc79a1b14dac9c6a9082ad9b866e3c7fb7bb9e9",
+      "family": "compact"
+    },
+    {
+      "file": "models/multi.pt",
+      "sha256": "f6cec581165b97e6414faf2b677d6ad491d3248b0ea2993561200d5f668ff0fa",
+      "role": "four_class_yolo"
+    },
+    {
+      "file": "models/person.pt",
+      "sha256": "86c5f73de02999b085a22c0bc2c0db3d83a34720341c455d1308a347a9dc177f",
+      "role": "person_yolo"
+    },
+    {
+      "file": "models/tiles.pt",
+      "sha256": "52cf9a32a661ee7e8f0e437196d8f6db98a2742e8ffa934761042854df1737b6",
+      "role": "tiled_small_yolo"
+    },
+    {
+      "file": "models/clothing.pt",
+      "sha256": "f51b54022059bc7aa74b5572810b3a76f01f863ab10dfef1cefea70fe3103eda",
+      "role": "garment_classifier"
+    },
+    {
+      "file": "models/hand_landmarker.task",
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "role": "hand_landmarks"
+    }
+  ],
+  "catboost_columns": [
+    [
+      "confidence",
+      "class_name",
+      "cx",
+      "cy",
+      "width",
+      "height",
+      "same_class_iou",
+      "higher_confidence_iou",
+      "overlap_count",
+      "near_person",
+      "near_hand",
+      "near_item",
+      "full_chain",
+      "local_hand_count",
+      "local_item_count",
+      "excess_hands",
+      "frame_hands_per_person",
+      "frame_items_per_hand",
+      "on_table",
+      "tray_on_table",
+      "hands_or_surface"
+    ],
+    [
+      "confidence",
+      "class_name",
+      "cx",
+      "cy",
+      "width",
+      "height",
+      "same_class_iou",
+      "higher_confidence_iou",
+      "overlap_count",
+      "near_person",
+      "near_hand",
+      "near_item",
+      "full_chain",
+      "local_hand_count",
+      "local_item_count",
+      "excess_hands",
+      "frame_hands_per_person",
+      "frame_items_per_hand",
+      "on_table",
+      "tray_on_table",
+      "hands_or_surface"
+    ],
+    [
+      "confidence",
+      "class_name",
+      "cx",
+      "cy",
+      "width",
+      "height",
+      "same_class_iou",
+      "higher_confidence_iou",
+      "overlap_count",
+      "aspect_ratio",
+      "box_area",
+      "bottom",
+      "top",
+      "edge_margin",
+      "left",
+      "right",
+      "log_area",
+      "log_aspect"
+    ]
+  ],
+  "confidence_rank_weight": 0.45,
+  "teacher_weight": 0.4,
+  "grounding_model": "IDEA-Research/grounding-dino-base",
+  "grounding_weights_url": "https://huggingface.co/IDEA-Research/grounding-dino-base",
+  "public_reference_AP": 0.87853,
+  "compact_public_AP": null,
+  "local_mean_AP": 0.9581648858842251,
+  "local_reference_mean_AP": 0.9579534774983767,
+  "grounding_revision": "12bdfa3120f3e7ec7b434d90674b3396eccf88eb"
+}

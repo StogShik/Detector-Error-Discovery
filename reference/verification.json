@@ -1,0 +1,9 @@
+{
+  "reference_rows": 362,
+  "image_inference_rows": 362,
+  "maximum_absolute_score_difference": 0.0,
+  "source": "Full raw-image and raw-table prediction using the isolated repository and bundled selected weights.",
+  "device": "Apple M4 / MPS; MediaPipe CPU",
+  "compact_public_AP": null,
+  "tests": "pytest: 4 passed; feature builder matches all selected-model inputs; replay equals reference to 1e-12."
+}

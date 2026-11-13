@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "detector-error-discovery"
+version = "0.1.0"
+description = "Compact, reproducible ranking of erroneous cafe object detections"
+requires-python = ">=3.12,<3.14"
+dependencies = ["numpy>=2.0,<3", "pandas>=2.2,<4", "scipy>=1.14,<2", "catboost==1.2.10", "pillow>=11"]
+
+[project.optional-dependencies]
+vision = ["torch==2.15.0", "torchvision==0.29.2", "ultralytics==8.4.210", "transformers==4.57.6", "huggingface-hub==0.36.2", "mediapipe==1.2.3", "opencv-python>=4.11,<6", "scikit-learn>=1.6,<2"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+ded = "detector_error_discovery.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
