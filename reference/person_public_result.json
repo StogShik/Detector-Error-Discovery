@@ -1,0 +1,9 @@
+{
+  "file": "submission_person_truncation.csv",
+  "public_AP": 0.87853,
+  "baseline_public_AP": 0.87853,
+  "source": "User-provided Kaggle screenshot",
+  "pair_reversals": 1410,
+  "detections_with_changed_rank": 248,
+  "conclusion": "No measured Public improvement; retain previous default. Equal AP does not identify affected Public labels or the split."
+}

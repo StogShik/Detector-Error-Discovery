@@ -21,9 +21,10 @@
     "evidence_over_05": 9,
     "other_classes_exactly_preserved": true,
     "base_public_AP": 0.87853,
-    "corrected_public_AP": null,
+    "corrected_public_AP": 0.87853,
     "source_sha256": "9a01485aca01a2934ab057c8f12a257ecfb991d3f5ce7cffa973fb5e7458c352",
     "default_changed": false,
-    "weights_downloaded": true
+    "weights_downloaded": true,
+    "public_improvement_confirmed": false
   }
 }
