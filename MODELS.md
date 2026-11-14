@@ -29,3 +29,9 @@ SHA-256 включённых файлов проверяется командо�
 ## Проверенный и отклонённый эксперимент с масками
 
 [SAM 2.1 Hiera Tiny](https://github.com/facebookresearch/sam2), исходная ревизия `2b90b9f5ceec907a1c18123530e92e794ad901a4`, [публичные веса](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_tiny.pt). Использовался без дообучения для масок отдельных людей. SHA-256 и параметры сохранены в `reference/sam2_person_metadata.json`; воспроизведение — `training/check_sam_recipe.py`. Не включён в состав решения из-за отсутствия устойчивого локального выигрыша относительно базы и контроля без масок.
+
+## Необязательное уточнение людей через YOLO26x
+
+`training/build_strong_submission.py` использует замороженную публичную **YOLO26x**: [официальная документация](https://docs.ultralytics.com/models/yolo26/), [веса v8.4.0](https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x.pt). SHA-256: `9fdd44a31c504547ffb81d2c6d9e6dac3493c8eaa8b0398d3f43bae6c7003e92`. Веса (~113 MiB) загружаются в `.cache/models/yolo26x.pt`; Ultralytics 8.4.210, вход 960, только класс person. Уточняются три границы боксов обученного camera-specific person-проверяющего; нижняя граница остаётся исходной. Новых обученных весов в выбранном кандидате нет. Public пока не измерен.
+
+Исследовательские альтернативы: YOLO26x с 20 эпохами обучения только ветвей регрессии боксов (3 820 056 обучаемых параметров, COCO-классификатор и backbone заморожены), усреднение с публичными весами 50/50, публичная YOLO26x-pose и замороженная [D-FINE-X Objects365 → COCO](https://huggingface.co/ustc-community/dfine-xlarge-obj2coco) ревизии `15f18d917eaddcedf9e3ffb082adcfb97a0b2d4d`. Эти альтернативы не нужны для воспроизведения выбранного CSV. Их локальное сравнение и параметры сохранены в `reference/strong_person_model_comparison.csv` и `reference/strong_person_experiment.json`.

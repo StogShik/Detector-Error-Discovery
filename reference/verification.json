@@ -5,7 +5,7 @@
   "source": "Full raw-image and raw-table prediction using the isolated repository and bundled selected weights.",
   "device": "Apple M4 / MPS; MediaPipe CPU",
   "compact_public_AP": null,
-  "tests": "pytest: 8 passed; standard, optional hand and person replay checks; non-target class scores preserved.",
+  "tests": "pytest: 9 passed; standard and optional replay checks; strong person detector geometry invariants.",
   "experimental_hand_recipe": {
     "rows": 362,
     "maximum_absolute_score_difference": 0.0,
@@ -50,5 +50,17 @@
     "cached_metric_rows_reproduced": 66,
     "default_changed": false,
     "new_test_submission_created": false
+  },
+  "experimental_yolo26x_fusion": {
+    "rows": 362,
+    "raw_person_frames_per_detector": 83,
+    "maximum_absolute_difference_before_reference_serialization": 1.1102230246251565e-16,
+    "comparison_tolerance": 1e-12,
+    "device": "Apple M4 / MPS",
+    "base_public_AP": 0.87853,
+    "public_AP": null,
+    "default_changed": false,
+    "other_branches": "Cached full graph; only person risk delta and global class calibration changed.",
+    "submission_sha256": "a8d9e823fba342cc5022a278ce814ef99db227e65e4d8abf9f771a994025222d"
   }
 }

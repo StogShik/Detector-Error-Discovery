@@ -57,6 +57,21 @@
       "passed_strict_gate": false,
       "default_changed": false,
       "new_submission_created": false
+    },
+    "frozen_yolo26x_boundary_fusion": {
+      "mean_AP": {
+        "baseline": 0.9579534774983767,
+        "offset_only": 0.959847994739208,
+        "geometry_only": 0.9584929761835854,
+        "candidate": 0.9609738215823816
+      },
+      "person_day2_before": 0.8555755641724241,
+      "person_day2_after": 0.8621298834467082,
+      "passed_strict_person_gate": false,
+      "public_AP": null,
+      "new_submission_created": true,
+      "default_changed": false,
+      "reason": "Small exploratory overall gain on both held-out days; requires independent Public evaluation."
     }
   },
   "default_changed": false,

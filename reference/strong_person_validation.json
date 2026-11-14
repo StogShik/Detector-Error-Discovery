@@ -1,0 +1,171 @@
+{
+  "metrics": [
+    {
+      "day": "20261025",
+      "subset": "all",
+      "method": "baseline",
+      "AP": 0.9634028933784333
+    },
+    {
+      "day": "20261025",
+      "subset": "all",
+      "method": "offset_only",
+      "AP": 0.9647207018439846
+    },
+    {
+      "day": "20261025",
+      "subset": "all",
+      "method": "geometry_only",
+      "AP": 0.9634028933784333
+    },
+    {
+      "day": "20261025",
+      "subset": "all",
+      "method": "candidate",
+      "AP": 0.9658217662062014
+    },
+    {
+      "day": "20261025",
+      "subset": "person",
+      "method": "baseline",
+      "AP": 0.944304707150557
+    },
+    {
+      "day": "20261025",
+      "subset": "person",
+      "method": "offset_only",
+      "AP": 0.944304707150557
+    },
+    {
+      "day": "20261025",
+      "subset": "person",
+      "method": "geometry_only",
+      "AP": 0.944304707150557
+    },
+    {
+      "day": "20261025",
+      "subset": "person",
+      "method": "candidate",
+      "AP": 0.944304707150557
+    },
+    {
+      "day": "20261025",
+      "subset": "test_like",
+      "method": "baseline",
+      "AP": 0.9613952757799425
+    },
+    {
+      "day": "20261025",
+      "subset": "test_like",
+      "method": "offset_only",
+      "AP": 0.962783780156423
+    },
+    {
+      "day": "20261025",
+      "subset": "test_like",
+      "method": "geometry_only",
+      "AP": 0.9613952757799425
+    },
+    {
+      "day": "20261025",
+      "subset": "test_like",
+      "method": "candidate",
+      "AP": 0.963938181310824
+    },
+    {
+      "day": "20261026",
+      "subset": "all",
+      "method": "baseline",
+      "AP": 0.95250406161832
+    },
+    {
+      "day": "20261026",
+      "subset": "all",
+      "method": "offset_only",
+      "AP": 0.9549752876344313
+    },
+    {
+      "day": "20261026",
+      "subset": "all",
+      "method": "geometry_only",
+      "AP": 0.9535830589887376
+    },
+    {
+      "day": "20261026",
+      "subset": "all",
+      "method": "candidate",
+      "AP": 0.9561258769585619
+    },
+    {
+      "day": "20261026",
+      "subset": "person",
+      "method": "baseline",
+      "AP": 0.8555755641724241
+    },
+    {
+      "day": "20261026",
+      "subset": "person",
+      "method": "offset_only",
+      "AP": 0.8555755641724241
+    },
+    {
+      "day": "20261026",
+      "subset": "person",
+      "method": "geometry_only",
+      "AP": 0.8621298834467082
+    },
+    {
+      "day": "20261026",
+      "subset": "person",
+      "method": "candidate",
+      "AP": 0.8621298834467082
+    },
+    {
+      "day": "20261026",
+      "subset": "test_like",
+      "method": "baseline",
+      "AP": 0.9502481006058054
+    },
+    {
+      "day": "20261026",
+      "subset": "test_like",
+      "method": "offset_only",
+      "AP": 0.9528762319348292
+    },
+    {
+      "day": "20261026",
+      "subset": "test_like",
+      "method": "geometry_only",
+      "AP": 0.9514061499023432
+    },
+    {
+      "day": "20261026",
+      "subset": "test_like",
+      "method": "candidate",
+      "AP": 0.9541099747800048
+    }
+  ],
+  "public_AP": null,
+  "base_public_AP": 0.87853,
+  "default_changed": false,
+  "selection": "Frozen YOLO26x chosen for simplicity: within 0.0002 mean AP of the best explored fine-tuned variant, without new fitted weights.",
+  "caveat": "Finite exploratory recipe selection on two repeatedly reused days; no independent Public estimate. Strict earlier +.01 mean-person-AP gate was not passed.",
+  "conditional_frame_bootstrap": {
+    "baseline": {
+      "delta_percentiles": [
+        -0.0006781373588484032,
+        0.0024771984914191414,
+        0.008360580979546294
+      ],
+      "positive_fraction": 0.9393333333333334
+    },
+    "offset_only": {
+      "delta_percentiles": [
+        -0.0009052734273651538,
+        0.0008442384234724487,
+        0.00406918260106272
+      ],
+      "positive_fraction": 0.8246666666666667
+    }
+  }
+}
