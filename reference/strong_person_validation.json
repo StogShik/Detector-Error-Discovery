@@ -145,11 +145,11 @@
       "AP": 0.9541099747800048
     }
   ],
-  "public_AP": null,
+  "public_AP": 0.88545,
   "base_public_AP": 0.87853,
   "default_changed": false,
   "selection": "Frozen YOLO26x chosen for simplicity: within 0.0002 mean AP of the best explored fine-tuned variant, without new fitted weights.",
-  "caveat": "Finite exploratory recipe selection on two repeatedly reused days; no independent Public estimate. Strict earlier +.01 mean-person-AP gate was not passed.",
+  "caveat": "Finite exploratory recipe selection on two repeatedly reused TRAIN days. Strict earlier +.01 mean-person-AP gate was not passed. Public AP .88545 reported separately by user screenshot; Private AP unknown.",
   "conditional_frame_bootstrap": {
     "baseline": {
       "delta_percentiles": [
@@ -167,5 +167,6 @@
       ],
       "positive_fraction": 0.8246666666666667
     }
-  }
+  },
+  "public_result_source": "strong_person_public_result.json"
 }

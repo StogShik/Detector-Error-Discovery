@@ -1,0 +1,9 @@
+{
+  "submission": "submission_yolo26x_fusion.csv",
+  "submission_sha256": "a8d9e823fba342cc5022a278ce814ef99db227e65e4d8abf9f771a994025222d",
+  "public_AP": 0.88545,
+  "base_public_AP": 0.87853,
+  "absolute_gain": 0.00692,
+  "source": "User-provided leaderboard screenshot",
+  "test_labels_used": false
+}

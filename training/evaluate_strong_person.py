@@ -26,9 +26,10 @@ def main():
         for subset in ['all','person','test_like']:
             ix=g.index if subset=='all' else g.index[g.class_name.eq('person')] if subset=='person' else g.index[g.class_name.ne('person')|g.confidence.ge(.73)]
             for name,score in scores.items():metrics.append(dict(day=day,subset=subset,method=name,AP=average_precision_score(rows.loc[ix,'error'],score.loc[ix])))
-    result=dict(metrics=metrics,public_AP=None,base_public_AP=.87853,default_changed=False,
+    public_result=json.loads((ROOT/'reference/strong_person_public_result.json').read_text())
+    result=dict(metrics=metrics,public_AP=public_result['public_AP'],base_public_AP=.87853,default_changed=False,
                 selection='Frozen YOLO26x chosen for simplicity: within 0.0002 mean AP of the best explored fine-tuned variant, without new fitted weights.',
-                caveat='Finite exploratory recipe selection on two repeatedly reused days; no independent Public estimate. Strict earlier +.01 mean-person-AP gate was not passed.')
+                caveat='Finite exploratory recipe selection on two repeatedly reused days; Public measured separately by user leaderboard screenshot; Private unknown. Strict earlier +.01 mean-person-AP gate was not passed.')
     if args.bootstrap:
         groups=[[g.index.to_numpy() for _,g in d.groupby('frame_id')] for _,d in rows.groupby('day')]
         rng=np.random.default_rng(41);y=rows.error.to_numpy();arrays={name:s.to_numpy() for name,s in scores.items()};deltas={name:[] for name in ['baseline','offset_only']}

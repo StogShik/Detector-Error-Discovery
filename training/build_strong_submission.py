@@ -63,7 +63,7 @@ def main():
     np.testing.assert_allclose(result.score, expected.score, atol=1e-12, rtol=0)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     result.to_csv(args.output, index=False)
-    print(f'Wrote {len(result)} rows to {args.output}. Candidate Public AP is unmeasured.')
+    print(f'Wrote {len(result)} rows to {args.output}. Recorded Public AP: 0.88545 (user leaderboard screenshot).')
 
 
 if __name__ == '__main__':

@@ -2,7 +2,7 @@
   "selected": "Frozen public YOLO26x",
   "source": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x.pt",
   "source_sha256": "9fdd44a31c504547ffb81d2c6d9e6dac3493c8eaa8b0398d3f43bae6c7003e92",
-  "public_AP": null,
+  "public_AP": 0.88545,
   "default_changed": false,
   "inference": {
     "imgsz": 960,
@@ -174,5 +174,6 @@
     "revision": "15f18d917eaddcedf9e3ffb082adcfb97a0b2d4d",
     "fitting": "none"
   },
-  "test_annotations_used": false
+  "test_annotations_used": false,
+  "public_result_source": "strong_person_public_result.json"
 }

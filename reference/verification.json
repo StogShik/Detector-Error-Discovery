@@ -58,9 +58,11 @@
     "comparison_tolerance": 1e-12,
     "device": "Apple M4 / MPS",
     "base_public_AP": 0.87853,
-    "public_AP": null,
+    "public_AP": 0.88545,
     "default_changed": false,
     "other_branches": "Cached full graph; only person risk delta and global class calibration changed.",
-    "submission_sha256": "a8d9e823fba342cc5022a278ce814ef99db227e65e4d8abf9f771a994025222d"
+    "submission_sha256": "a8d9e823fba342cc5022a278ce814ef99db227e65e4d8abf9f771a994025222d",
+    "public_improvement_confirmed": true,
+    "public_result_source": "strong_person_public_result.json"
   }
 }

@@ -68,10 +68,12 @@
       "person_day2_before": 0.8555755641724241,
       "person_day2_after": 0.8621298834467082,
       "passed_strict_person_gate": false,
-      "public_AP": null,
+      "public_AP": 0.88545,
       "new_submission_created": true,
       "default_changed": false,
-      "reason": "Small exploratory overall gain on both held-out days; requires independent Public evaluation."
+      "reason": "Small exploratory local gain on both TRAIN days; user screenshot confirms Public .87853 -> .88545.",
+      "public_improvement_confirmed": true,
+      "public_result_source": "strong_person_public_result.json"
     }
   },
   "default_changed": false,
